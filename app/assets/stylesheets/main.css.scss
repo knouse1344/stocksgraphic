@@ -92,11 +92,10 @@
 }
 
 #us-equity {
-	background: #444;
+	background: rgba(255,255,255,.1);
 	height: 150px;
 	width: 400px;
 	margin: 50px;
-	border: 2px solid #999;
 
 	h1 {
 		padding: 5px 8px;
@@ -118,22 +117,20 @@
 }
 
 .info-box {
-	background: #444;
+	background: rgba(255,255,255,.1);
 	height: 120px;
 	width: 275px;
 	margin: 50px;
-	border: 2px solid #999;
 
 	h1 {
-		padding: 3px 5px;
-		font-size: 22px;
+		padding: 3px 8px;
+		font-size: 20px;
 		display: block;
 		margin: 0;
 
 		span {
 			float: right;
-			font-size: 18px;
-			padding-top: 3px;
+			font-size: 20px;
 			font-weight: normal;
 		}
 	}
@@ -144,7 +141,7 @@
 		p {
 			margin: 0;
 			font-size: 20px;
-			padding: 8px 5px;
+			padding: 8px 8px;
 
 			span {
 				margin-left: 15px;
@@ -159,4 +156,16 @@
 			}
 		}
 	}
+}
+
+path {
+  fill: none;
+  stroke: rgba(255,255,255,.075);
+  stroke-width: 1px;
+}
+
+circle {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 2px;
 }

@@ -117,7 +117,7 @@ var points2_11 = [
   [300, 200]
 ];
 
-// Node 1: NASDAQ
+// Node 3: CMCSA
 var points3_1 = [
   [750, 300],
   [450, 100]  
@@ -163,12 +163,196 @@ var points3_11 = [
   [300, 200]
 ];
 
+// Node 4: FB
+var points4_1 = [
+  [850, 400],
+  [450, 100]  
+];
+var points4_2 = [
+  [850, 400],
+  [600, 200]
+];
+var points4_3 = [
+  [850, 400],
+  [750, 300]
+];
+var points4_4 = [
+  [850, 400],
+  [750, 500]
+];
+var points4_5 = [
+  [850, 400],
+  [600, 600]
+];
+var points4_6 = [
+  [850, 400],
+  [450, 700]
+];
+var points4_7 = [
+  [850, 400],
+  [300, 600]
+];
+var points4_8 = [
+  [850, 400],
+  [150, 500]
+];
+var points4_9 = [
+  [850, 400],
+  [50, 400]
+];
+var points4_10 = [
+  [850, 400],
+  [150, 300]
+];
+var points4_11 = [
+  [850, 400],
+  [300, 200]
+];
+
+// Node 5: NFLX
+var points5_1 = [
+  [750, 500],
+  [450, 100]  
+];
+var points5_2 = [
+  [750, 500],
+  [600, 200]
+];
+var points5_3 = [
+  [750, 500],
+  [750, 300]
+];
+var points5_4 = [
+  [750, 500],
+  [850, 400]
+];
+var points5_5 = [
+  [750, 500],
+  [600, 600]
+];
+var points5_6 = [
+  [750, 500],
+  [450, 700]
+];
+var points5_7 = [
+  [750, 500],
+  [300, 600]
+];
+var points5_8 = [
+  [750, 500],
+  [150, 500]
+];
+var points5_9 = [
+  [750, 500],
+  [50, 400]
+];
+var points5_10 = [
+  [750, 500],
+  [150, 300]
+];
+var points5_11 = [
+  [750, 500],
+  [300, 200]
+];
+
+// Node 6: TSLA
+var points6_1 = [
+  [600, 600],
+  [450, 100]  
+];
+var points6_2 = [
+  [600, 600],
+  [600, 200]
+];
+var points6_3 = [
+  [600, 600],
+  [750, 300]
+];
+var points6_4 = [
+  [600, 600],
+  [850, 400]
+];
+var points6_5 = [
+  [600, 600],
+  [750, 500]
+];
+var points6_6 = [
+  [600, 600],
+  [450, 700]
+];
+var points6_7 = [
+  [600, 600],
+  [300, 600]
+];
+var points6_8 = [
+  [600, 600],
+  [150, 500]
+];
+var points6_9 = [
+  [600, 600],
+  [50, 400]
+];
+var points6_10 = [
+  [600, 600],
+  [150, 300]
+];
+var points6_11 = [
+  [600, 600],
+  [300, 200]
+];
+
+// Node 7: NYSE
+var points7_1 = [
+  [450, 700],
+  [450, 100]  
+];
+var points7_2 = [
+  [450, 700],
+  [600, 200]
+];
+var points7_3 = [
+  [450, 700],
+  [750, 300]
+];
+var points7_4 = [
+  [450, 700],
+  [850, 400]
+];
+var points7_5 = [
+  [450, 700],
+  [750, 500]
+];
+var points7_6 = [
+  [450, 700],
+  [600, 600]
+];
+var points7_7 = [
+  [450, 700],
+  [300, 600]
+];
+var points7_8 = [
+  [450, 700],
+  [150, 500]
+];
+var points7_9 = [
+  [450, 700],
+  [50, 400]
+];
+var points7_10 = [
+  [450, 700],
+  [150, 300]
+];
+var points7_11 = [
+  [450, 700],
+  [300, 200]
+];
+
 
 
 var svg = d3.select("#index").append("svg")
     .attr("width", 900)
     .attr("height", 1000)
-    .attr("style", 'margin-left: -50px');
+    .attr("style", 'margin-left: -80px');
 
 
 // Sending node 1: NASDAQ 
@@ -209,6 +393,58 @@ world(points3_8, 2000);
 world(points3_9, 2000);
 world(points3_10, 2000);
 world(points3_11, 2000);
+
+// Sending node 4: FB
+world(points4_1, 2500);
+world(points4_2, 2500);
+world(points4_3, 2500);
+world(points4_4, 2500);
+world(points4_5, 2500);
+world(points4_6, 2500);
+world(points4_7, 2500);
+world(points4_8, 2500);
+world(points4_9, 2500);
+world(points4_10, 2500);
+world(points4_11, 2500);
+
+// Sending node 5:  NFLX
+world(points5_1, 3000);
+world(points5_2, 3000);
+world(points5_3, 3000);
+world(points5_4, 3000);
+world(points5_5, 3000);
+world(points5_6, 3000);
+world(points5_7, 3000);
+world(points5_8, 3000);
+world(points5_9, 3000);
+world(points5_10, 3000);
+world(points5_11, 3000);
+
+// Sending node 6:  TSLA
+world(points6_1, 3500);
+world(points6_2, 3500);
+world(points6_3, 3500);
+world(points6_4, 3500);
+world(points6_5, 3500);
+world(points6_6, 3500);
+world(points6_7, 3500);
+world(points6_8, 3500);
+world(points6_9, 3500);
+world(points6_10, 3500);
+world(points6_11, 3500);
+
+// Sending node 7:  NYSE
+world(points7_1, 4000);
+world(points7_2, 4000);
+world(points7_3, 4000);
+world(points7_4, 4000);
+world(points7_5, 4000);
+world(points7_6, 4000);
+world(points7_7, 4000);
+world(points7_8, 4000);
+world(points7_9, 4000);
+world(points7_10, 4000);
+world(points7_11, 4000);
 
 // ...
 

@@ -12,12 +12,12 @@
 
 path {
   fill: none;
-  stroke: #fff;
-  stroke-width: 3px;
+  stroke: rgba(255,255,255,.075);
+  stroke-width: 1px;
 }
 
 circle {
-  fill: #fafafa;
+  fill: transparent;
   stroke: #fff;
   stroke-width: 3px;
 }
@@ -25,68 +25,192 @@ circle {
 </style>
 <script>
 
+// Node 1: NASDAQ
 var points1 = [
-  [750, 400],
-  [480, 100]  
+  [500, 100],
+  [650, 200]  
 ];
 var points2 = [
-  [750, 400],
-  [280, 400]
+  [500, 100],
+  [750, 300]
 ];
 var points3 = [
-  [750, 400],
-  [280, 150]
+  [500, 100],
+  [850, 400]
 ];
 var points4 = [
-  [750, 400],
-  [350, 150]
+  [500, 100],
+  [750, 500]
 ];
 var points5 = [
-  [750, 400],
-  [350, 250]
+  [500, 100],
+  [650, 600]
 ];
 var points6 = [
-  [750, 400],
-  [400, 350]
+  [500, 100],
+  [500, 700]
 ];
 var points7 = [
-  [750, 400],
-  [420, 250]
+  [500, 100],
+  [350, 600]
 ];
 var points8 = [
-  [750, 400],
-  [580, 150]
+  [500, 100],
+  [250, 500]
 ];
 var points9 = [
-  [750, 400],
-  [380, 350]
+  [500, 100],
+  [150, 400]
 ];
 var points10 = [
-  [750, 400],
-  [580, 350]
+  [500, 100],
+  [250, 300]
 ];
 var points11 = [
-  [750, 400],
-  [740, 250]
+  [500, 100],
+  [350, 200]
+];
+
+// Node 1: NASDAQ
+var points2_1 = [
+  [650, 200],
+  [500, 100]  
+];
+var points2_2 = [
+  [650, 200],
+  [750, 300]
+];
+var points2_3 = [
+  [650, 200],
+  [850, 400]
+];
+var points2_4 = [
+  [650, 200],
+  [750, 500]
+];
+var points2_5 = [
+  [650, 200],
+  [650, 600]
+];
+var points2_6 = [
+  [650, 200],
+  [500, 700]
+];
+var points2_7 = [
+  [650, 200],
+  [350, 600]
+];
+var points2_8 = [
+  [650, 200],
+  [250, 500]
+];
+var points2_9 = [
+  [650, 200],
+  [150, 400]
+];
+var points2_10 = [
+  [650, 200],
+  [250, 300]
+];
+var points2_11 = [
+  [650, 200],
+  [350, 200]
+];
+
+// Node 1: NASDAQ
+var points3_1 = [
+  [750, 300],
+  [500, 100]  
+];
+var points3_2 = [
+  [750, 300],
+  [650, 200]
+];
+var points3_3 = [
+  [750, 300],
+  [850, 400]
+];
+var points3_4 = [
+  [750, 300],
+  [750, 500]
+];
+var points3_5 = [
+  [750, 300],
+  [650, 600]
+];
+var points3_6 = [
+  [750, 300],
+  [500, 700]
+];
+var points3_7 = [
+  [750, 300],
+  [350, 600]
+];
+var points3_8 = [
+  [750, 300],
+  [250, 500]
+];
+var points3_9 = [
+  [750, 300],
+  [150, 400]
+];
+var points3_10 = [
+  [750, 300],
+  [250, 300]
+];
+var points3_11 = [
+  [750, 300],
+  [350, 200]
 ];
 
 
 
 var svg = d3.select("#index").append("svg")
-    .attr("width", 960)
-    .attr("height", 500);
+    .attr("width", 900)
+    .attr("height", 1000);
 
+
+// Sending node 1: NASDAQ 
 world(points1, 1000);
-world(points2, 1500);
-world(points3, 2000);
-world(points4, 900);
-world(points5, 1900);
-world(points6, 2100);
-world(points7, 2200);
-world(points8, 800);
-world(points9, 1300);
-world(points10, 3000);
-world(points11, 2400);
+world(points2, 1000);
+world(points3, 1000);
+world(points4, 1000);
+world(points5, 1000);
+world(points6, 1000);
+world(points7, 1000);
+world(points8, 1000);
+world(points9, 1000);
+world(points10, 1000);
+world(points11, 1000);
+
+// Sending node 2: AAPL 
+world(points2_1, 1500);
+world(points2_2, 1500);
+world(points2_3, 1500);
+world(points2_4, 1500);
+world(points2_5, 1500);
+world(points2_6, 1500);
+world(points2_7, 1500);
+world(points2_8, 1500);
+world(points2_9, 1500);
+world(points2_10, 1500);
+world(points2_11, 1500);
+
+// Sending node 3:  CMCSA
+world(points3_1, 2000);
+world(points3_2, 2000);
+world(points3_3, 2000);
+world(points3_4, 2000);
+world(points3_5, 2000);
+world(points3_6, 2000);
+world(points3_7, 2000);
+world(points3_8, 2000);
+world(points3_9, 2000);
+world(points3_10, 2000);
+world(points3_11, 2000);
+
+// ...
+
 
 // POINTS1///////////////////////////////////////
 function world(points, timer) {
@@ -100,21 +224,23 @@ function world(points, timer) {
 	svg.selectAll(".point")
 	    .data(points)
 	  .enter().append("circle")
-	    .attr("r", 4)
+	    .attr("r", 2)
 	    .attr("transform", function(d) { return "translate(" + d + ")"; });
 
 	var circle = svg.append("circle")
-	    .attr("r", 13)
+	    .attr("r", 6)
 	    .attr("transform", "translate(" + points[0] + ")");
 
 	transition();
 
 	function transition() {
 		setTimeout(function(){
+		  circle.attr("opacity", '1');
 		  circle.transition()
 		      .duration(1000)
 		      .ease("linear")
 		      .attrTween("transform", translateAlong(path.node()))
+		      .attr("opacity", '0')
 		      .each("end", transition);
 		}, timer);
 	}

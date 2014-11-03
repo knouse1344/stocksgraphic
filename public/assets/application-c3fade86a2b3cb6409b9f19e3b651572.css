@@ -66,13 +66,12 @@
 
 /* line 94, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #us-equity {
-  background: #444;
+  background: rgba(255, 255, 255, 0.1);
   height: 150px;
   width: 400px;
   margin: 50px;
-  border: 2px solid #999;
 }
-/* line 101, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 100, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #us-equity h1 {
   padding: 5px 8px;
   font-size: 26px;
@@ -80,52 +79,64 @@
   margin: 0;
   background: #888;
 }
-/* line 109, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 108, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #us-equity .data {
   padding-top: 8px;
 }
-/* line 112, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 111, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #us-equity .data p {
   margin: 0;
   font-size: 22px;
   padding: 10px 8px;
 }
 
-/* line 120, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 119, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box {
-  background: #444;
+  background: rgba(255, 255, 255, 0.1);
   height: 120px;
   width: 275px;
   margin: 50px;
-  border: 2px solid #999;
 }
-/* line 127, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 125, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box h1 {
-  padding: 3px 5px;
-  font-size: 22px;
+  padding: 3px 8px;
+  font-size: 20px;
   display: block;
   margin: 0;
 }
-/* line 133, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 131, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box h1 span {
   float: right;
-  font-size: 18px;
-  padding-top: 3px;
+  font-size: 20px;
   font-weight: normal;
 }
-/* line 141, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 138, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box .data {
   padding-top: 5px;
 }
-/* line 144, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 141, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box .data p {
   margin: 0;
   font-size: 20px;
-  padding: 8px 5px;
+  padding: 8px 8px;
 }
-/* line 149, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 146, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box .data p span {
   margin-left: 15px;
+}
+
+/* line 161, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.075);
+  stroke-width: 1px;
+}
+
+/* line 167, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+circle {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 2px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

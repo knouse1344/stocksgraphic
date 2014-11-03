@@ -1,3 +1,158 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#nasdaq {
+	
+	h1 {
+		background: #91BCCC;
+	}
+}
+
+#apple {
+
+	h1 {
+		background: #cacaca;
+	}
+}
+
+#comcast {
+
+	h1 {
+		background: #c00;
+	}
+}
+
+#facebook {
+
+	h1 {
+		background: #00c;
+	}
+}
+
+#netflix {
+
+	h1 {
+		background: #a00;
+	}
+}
+
+#tesla {
+
+	h1 {
+		background: #500;
+	}
+}
+
+#nyse {
+
+	h1 {
+		background: #00a;
+	}
+}
+
+#alibaba {
+
+	h1 {
+		background: #FFB05B;
+	}
+}
+
+#boa {
+
+	h1 {
+		background: #99f;
+	}
+}
+
+#ko {
+
+	h1 {
+		background: #a99;
+	}
+}
+
+#delta {
+
+	h1 {
+		background: #eaa;
+	}
+}
+
+#twitter {
+
+	h1 {
+		background: #aaf;
+	}
+}
+
+#us-equity {
+	background: #ddd;
+	height: 150px;
+	width: 400px;
+	margin: 50px;
+	border: 2px solid #ccc;
+
+	h1 {
+		padding: 5px 8px;
+		font-size: 26px;
+		display: block;
+		margin: 0;
+		background: #fff;
+	}
+
+	.data {
+		padding-top: 8px;
+
+		p {
+			margin: 0;
+			font-size: 22px;
+			padding: 10px 8px;
+		}
+	}
+}
+
+.info-box {
+	background: #ddd;
+	height: 120px;
+	width: 275px;
+	margin: 50px;
+	border: 2px solid #ccc;
+
+	h1 {
+		padding: 3px 5px;
+		font-size: 22px;
+		display: block;
+		margin: 0;
+
+		span {
+			float: right;
+			font-size: 18px;
+			padding-top: 3px;
+			font-weight: normal;
+		}
+	}
+
+	.data {
+		padding-top: 5px;
+
+		p {
+			margin: 0;
+			font-size: 20px;
+			padding: 8px 5px;
+
+			span {
+				margin-left: 15px;
+			}
+
+			.vol {
+
+			}
+
+			.amt {
+
+			}
+		}
+	}
+}

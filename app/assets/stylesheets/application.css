@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+p, span, h1, h2, h3, h4 {
+	font-family: 'Helvetica', sans-serif;
+	color: #222;
+}
+
+.container {
+	margin: auto;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 860px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 80%;
+	}
+}

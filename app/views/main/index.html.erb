@@ -1,3 +1,13 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div id="index">
+
+			</div>
+		</div>
+	</div>
+</div>
+
 <style>
 
 path {
@@ -16,29 +26,67 @@ circle {
 <script>
 
 var points1 = [
-  [480, 100],
-  [680, 400]
+  [750, 400],
+  [480, 100]  
 ];
-
 var points2 = [
-  [280, 400],
-  [780, 450]
+  [750, 400],
+  [280, 400]
 ];
-
 var points3 = [
-  [280, 150],
-  [680, 300]
+  [750, 400],
+  [280, 150]
+];
+var points4 = [
+  [750, 400],
+  [350, 150]
+];
+var points5 = [
+  [750, 400],
+  [350, 250]
+];
+var points6 = [
+  [750, 400],
+  [400, 350]
+];
+var points7 = [
+  [750, 400],
+  [420, 250]
+];
+var points8 = [
+  [750, 400],
+  [580, 150]
+];
+var points9 = [
+  [750, 400],
+  [380, 350]
+];
+var points10 = [
+  [750, 400],
+  [580, 350]
+];
+var points11 = [
+  [750, 400],
+  [740, 250]
 ];
 
 
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#index").append("svg")
     .attr("width", 960)
     .attr("height", 500);
 
 world(points1, 1000);
 world(points2, 1500);
 world(points3, 2000);
+world(points4, 900);
+world(points5, 1900);
+world(points6, 2100);
+world(points7, 2200);
+world(points8, 800);
+world(points9, 1300);
+world(points10, 3000);
+world(points11, 2400);
 
 // POINTS1///////////////////////////////////////
 function world(points, timer) {

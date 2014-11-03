@@ -1,0 +1,178 @@
+/* line 8, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nasdaq h1 {
+  background: #91BCCC;
+}
+
+/* line 15, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#apple h1 {
+  background: #aaa;
+}
+
+/* line 22, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#comcast h1 {
+  background: #c00;
+}
+
+/* line 29, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#facebook h1 {
+  background: #00c;
+}
+
+/* line 36, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#netflix h1 {
+  background: #a00;
+}
+
+/* line 43, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#tesla h1 {
+  background: #500;
+}
+
+/* line 50, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nyse h1 {
+  background: #00a;
+}
+
+/* line 57, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#alibaba h1 {
+  background: #FFB05B;
+}
+
+/* line 64, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#boa h1 {
+  background: #99f;
+}
+
+/* line 71, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#ko h1 {
+  background: #a99;
+}
+
+/* line 78, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#delta h1 {
+  background: #eaa;
+}
+
+/* line 85, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#twitter h1 {
+  background: #aaf;
+}
+
+/* line 90, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity {
+  background: #444;
+  height: 150px;
+  width: 400px;
+  margin: 50px;
+  border: 2px solid #999;
+}
+/* line 97, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity h1 {
+  padding: 5px 8px;
+  font-size: 26px;
+  display: block;
+  margin: 0;
+  background: #888;
+}
+/* line 105, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity .data {
+  padding-top: 8px;
+}
+/* line 108, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity .data p {
+  margin: 0;
+  font-size: 22px;
+  padding: 10px 8px;
+}
+
+/* line 116, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box {
+  background: #444;
+  height: 120px;
+  width: 275px;
+  margin: 50px;
+  border: 2px solid #999;
+}
+/* line 123, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box h1 {
+  padding: 3px 5px;
+  font-size: 22px;
+  display: block;
+  margin: 0;
+}
+/* line 129, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box h1 span {
+  float: right;
+  font-size: 18px;
+  padding-top: 3px;
+  font-weight: normal;
+}
+/* line 137, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data {
+  padding-top: 5px;
+}
+/* line 140, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p {
+  margin: 0;
+  font-size: 20px;
+  padding: 8px 5px;
+}
+/* line 145, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p span {
+  margin-left: 15px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+p, span, h1, h2, h3, h4 {
+	font-family: 'Helvetica', sans-serif;
+	color: #fff;
+}
+
+.container {
+	margin: auto;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 860px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 80%;
+	}
+}

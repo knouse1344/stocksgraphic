@@ -165,7 +165,55 @@ path {
 }
 
 circle {
-  fill: transparent;
-  stroke: #fff;
-  stroke-width: 2px;
+	stroke-width: 2px;
+	stroke: #fff;
+	fill: transparent;
+}
+
+.nasdaq {
+	stroke: #91BCCC;
+}
+
+.aapl {
+	stroke: #aaa;
+}
+
+.cmcsa {
+	stroke: #c00;
+}
+
+.fb {
+	stroke: #77d;
+}
+
+.nflx {
+	stroke: #a99;
+}
+
+.tsla {
+	stroke: #a55;
+}
+
+.nyse {
+	stroke: #99f;
+}
+
+.baba {
+	stroke: #FFB05B;
+}
+
+.bac {
+	stroke: #99f;
+}
+
+.ko {
+	stroke: #a99;
+}
+
+.dal {
+	stroke: #eaa;
+}
+
+.twtr {
+	stroke: #aaf;
 }

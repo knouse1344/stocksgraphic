@@ -19,6 +19,15 @@
 	}
 }
 
+.n-nasdaq {
+	background: #922FA5;
+	border-radius: 10px;
+	left: 443px;
+	top: 193px;
+	width: 14px;
+	height: 14px;
+}
+
 #apple {
 	top: 215px;
 	left: 610px;
@@ -26,6 +35,15 @@
 	h1 {
 		background: #999;
 	}
+}
+
+.n-aapl {
+	background: #999;
+	border-radius: 10px;
+	left: 593px;
+	top: 293px;
+	width: 14px;
+	height: 14px;
 }
 
 #comcast {
@@ -37,6 +55,15 @@
 	}
 }
 
+.n-cmcsa {
+	background: #924A27;
+	border-radius: 10px;
+	left: 743px;
+	top: 393px;
+	width: 14px;
+	height: 14px;
+}
+
 #facebook {
 	top: 460px;
 	left: 800px;
@@ -44,6 +71,15 @@
 	h1 {
 		background: #6473C4;
 	}
+}
+
+.n-fb {
+	background: #6473C4;
+	border-radius: 10px;
+	left: 778px;
+	top: 493px;
+	width: 14px;
+	height: 14px;
 }
 
 #netflix {
@@ -55,6 +91,15 @@
 	}
 }
 
+.n-nflx {
+	background: #AA3934;
+	border-radius: 10px;
+	left: 743px;
+	top: 593px;
+	width: 14px;
+	height: 14px;
+}
+
 #tesla {
 	top: 710px;
 	left: 610px;
@@ -62,6 +107,15 @@
 	h1 {
 		background: #745234;
 	}
+}
+
+.n-tsla {
+	background: #745234;
+	border-radius: 10px;
+	left: 593px;
+	top: 693px;
+	width: 14px;
+	height: 14px;
 }
 
 #nyse {
@@ -73,6 +127,15 @@
 	}
 }
 
+.n-nyse {
+	background: #343481;
+	border-radius: 10px;
+	left: 443px;
+	top: 793px;
+	width: 14px;
+	height: 14px;
+}
+
 #alibaba {
 	top: 710px;
 	left: 120px;
@@ -80,6 +143,15 @@
 	h1 {
 		background: #A56117;
 	}
+}
+
+.n-baba {
+	background: #A56117;
+	border-radius: 10px;
+	left: 293px;
+	top: 693px;
+	width: 14px;
+	height: 14px;
 }
 
 #boa {
@@ -91,12 +163,30 @@
 	}
 }
 
+.n-bac {
+	background: #248041;
+	border-radius: 10px;
+	left: 143px;
+	top: 593px;
+	width: 14px;
+	height: 14px;
+}
+
 #ko {
 	top: 460px;
 	left: -75px;
 	h1 {
 		background: #617427;
 	}
+}
+
+.n-ko {
+	background: #617427;
+	border-radius: 10px;
+	left: 108px;
+	top: 493px;
+	width: 14px;
+	height: 14px;
 }
 
 #delta {
@@ -108,6 +198,15 @@
 	}
 }
 
+.n-dal {
+	background: #6D2828;
+	border-radius: 10px;
+	left: 143px;
+	top: 393px;
+	width: 14px;
+	height: 14px;
+}
+
 #twitter {
 	top: 215px;
 	left: 120px;
@@ -115,6 +214,15 @@
 	h1 {
 		background: #4B8DA2;
 	}
+}
+
+.n-twtr {
+	background: #4B8DA2;
+	border-radius: 10px;
+	left: 293px;
+	top: 293px;
+	width: 14px;
+	height: 14px;
 }
 
 #us-equity {
@@ -203,55 +311,70 @@ path {
 }
 
 circle {
-	stroke-width: 3px;
-	stroke: #fff;
-	fill: transparent;
+	stroke-width: 2px;
+	fill: #fff;
+}
+
+.node {
+	position: absolute;
 }
 
 .nasdaq {
 	stroke: #922FA5;
+	fill: transparent;
 }
 
 .aapl {
-	stroke: #999;
+	stroke: #999;	
+	fill: transparent;
 }
 
 .cmcsa {
 	stroke: #924A27;
+	fill: transparent;
 }
 
 .fb {
 	stroke: #6473C4;
+	fill: transparent;
 }
 
 .nflx {
 	stroke: #AA3934;
+	fill: transparent;
 }
 
 .tsla {
 	stroke: #745234;
+	fill: transparent;
 }
 
 .nyse {
 	stroke: #343481;
+	fill: transparent;
 }
 
 .baba {
 	stroke: #A56117;
+	fill: transparent;
 }
 
 .bac {
 	stroke: #248041;
+	fill: transparent;
 }
 
 .ko {
 	stroke: #617427;
+	fill: transparent;
 }
 
 .dal {
 	stroke: #6D2828;
+	fill: transparent;
 }
 
 .twtr {
 	stroke: #4B8DA2;
+	fill: transparent;
 }

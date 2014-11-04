@@ -16,6 +16,7 @@
             <p>$<span id="nasdaq-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-nasdaq"></div>
 
         <div id="apple" class="info-box">
           <h1>AAPL<span>NASDAQ</span></h1>
@@ -24,6 +25,7 @@
             <p>$<span id="aapl-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-aapl"></div>
 
         <div id="comcast" class="info-box">
           <h1>CMCSA<span>NASDAQ</span></h1>
@@ -32,6 +34,7 @@
             <p>$<span id="cmcsa-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-cmcsa"></div>
 
         <div id="facebook" class="info-box">
           <h1>FB<span>NASDAQ</span></h1>
@@ -40,6 +43,7 @@
             <p>$<span id="fb-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-fb"></div>
 
         <div id="netflix" class="info-box">
           <h1>NFLX<span>NASDAQ</span></h1>
@@ -48,6 +52,7 @@
             <p>$<span id="nflx-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-nflx"></div>
 
         <div id="tesla" class="info-box">
           <h1>TSLA<span>NASDAQ</span></h1>
@@ -56,6 +61,7 @@
             <p>$<span id="tsla-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-tsla"></div>
 
         <div id="nyse" class="info-box">
           <h1>NYSE</h1>
@@ -64,6 +70,7 @@
             <p>$<span id="nyse-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-nyse"></div>
 
         <div id="alibaba" class="info-box">
           <h1>BABA<span>NYSE</span></h1>
@@ -72,6 +79,7 @@
             <p>$<span id="baba-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-baba"></div>
 
         <div id="boa" class="info-box">
           <h1>BAC<span>NYSE</span></h1>
@@ -80,6 +88,7 @@
             <p>$<span id="bac-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-bac"></div>
 
         <div id="ko" class="info-box">
           <h1>KO<span>NYSE</span></h1>
@@ -88,6 +97,7 @@
             <p>$<span id="ko-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-ko"></div>
 
         <div id="delta" class="info-box">
           <h1>DAL<span>NYSE</span></h1>
@@ -96,6 +106,7 @@
             <p>$<span id="dal-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-dal"></div>
 
         <div id="twitter" class="info-box">
           <h1>TWTR<span>NYSE</span></h1>
@@ -104,6 +115,7 @@
             <p>$<span id="twtr-val" class="amt"></span></p>
           </div>
         </div>
+        <div class="node n-twtr"></div>
       </div>
     </div>
   </div>
@@ -128,18 +140,29 @@ counter('dal-vol', 'dal-val', 0, 0, 134.26, 10163.04);
 counter('twtr-vol', 'twtr-val', 0, 0, 302.20, 19888.85);
 
 function counter(volid, valid, vol, val, volps, valps) {
-  if (vol > 3000000){
+  if (vol > 10000000){
     return;
   } else {
     setTimeout(function() {
       vol += volps;
       val += valps;
-      document.getElementById(volid).innerHTML = vol.toFixed(2);
-      document.getElementById(valid).innerHTML = val.toFixed(2);
+      document.getElementById(volid).innerHTML = vol.formatMoney(2);
+      document.getElementById(valid).innerHTML = val.formatMoney(2);
       counter(volid, valid, vol, val, volps, valps);
     }, 1000);
   }
 }
+
+Number.prototype.formatMoney = function(c, d, t){
+var n = this, 
+    c = isNaN(c = Math.abs(c)) ? 2 : c, 
+    d = d == undefined ? "." : d, 
+    t = t == undefined ? "," : t, 
+    s = n < 0 ? "-" : "", 
+    i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+    j = (j = i.length) > 3 ? j % 3 : 0;
+   return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+ };
 
 // Node 1: NASDAQ
 var points1 = [
@@ -698,260 +721,321 @@ var svg = d3.select("#index").append("svg")
     .attr("width", 900)
     .attr("height", 1000);
 
+init_1();
+init_2();
+init_3();
+init_4();
+init_5();
+init_6();
+init_7();
+init_8();
+init_9();
+init_10();
+init_11();
+init_12();
 
+// MATRIX FORMAT: function(points, nodenum, repeat, timeout)
 // Sending node 1: NASDAQ 
-setTimeout(function() { 
-  world(points1, 1);
-  world(points2, 1);
-  world(points3, 1);
-  world(points4, 1);
-  world(points5, 1);
-  world(points6, 1);
-  world(points7, 1);
-  world(points8, 1);
-  world(points9, 1);
-  world(points10, 1);
-  world(points11, 1);
-}, 500);
+function init_1() {
+  setTimeout(function() { 
+    world(points1, 1, 4, 3000);
+    world(points2, 1, 4, 3000);
+    world(points3, 1, 4, 3000);
+    world(points4, 1, 4, 3000);
+    world(points5, 1, 4, 3000);
+    world(points6, 1, 4, 3000);
+    world(points7, 1, 4, 3000);
+    world(points8, 1, 4, 3000);
+    world(points9, 1, 4, 3000);
+    world(points10, 1, 4, 3000);
+    world(points11, 1, 4, 3000);
+  }, 100);
+}
 
 // Sending node 2: AAPL 
-setTimeout(function() {
-  world(points2_1, 2);
-  world(points2_2, 2);
-  world(points2_3, 2);
-  world(points2_4, 2);
-  world(points2_5, 2);
-  world(points2_6, 2);
-  world(points2_7, 2);
-  world(points2_8, 2);
-  world(points2_9, 2);
-  world(points2_10, 2);
-  world(points2_11, 2);
-}, 1500);
+function init_2() {
+  setTimeout(function() {
+    world(points2_1, 2, 10, 8000);
+    world(points2_2, 2, 10, 8000);
+    world(points2_3, 2, 10, 8000);
+    world(points2_4, 2, 10, 8000);
+    world(points2_5, 2, 10, 8000);
+    world(points2_6, 2, 10, 8000);
+    world(points2_7, 2, 10, 8000);
+    world(points2_8, 2, 10, 8000);
+    world(points2_9, 2, 10, 8000);
+    world(points2_10, 2, 10, 8000);
+    world(points2_11, 2, 10, 8000);
+  }, 100);
+}
 
-// // Sending node 3:  CMCSA
-setTimeout(function() {
-  world(points3_1, 3);
-  world(points3_2, 3);
-  world(points3_3, 3);
-  world(points3_4, 3);
-  world(points3_5, 3);
-  world(points3_6, 3);
-  world(points3_7, 3);
-  world(points3_8, 3);
-  world(points3_9, 3);
-  world(points3_10, 3);
-  world(points3_11, 3);
-}, 5500);
+// Sending node 3:  CMCSA
+function init_3() {
+  setTimeout(function() {
+    world(points3_1, 3, 2, 15000);
+    world(points3_2, 3, 2, 15000);
+    world(points3_3, 3, 2, 15000);
+    world(points3_4, 3, 2, 15000);
+    world(points3_5, 3, 2, 15000);
+    world(points3_6, 3, 2, 15000);
+    world(points3_7, 3, 2, 15000);
+    world(points3_8, 3, 2, 15000);
+    world(points3_9, 3, 2, 15000);
+    world(points3_10, 3, 2, 15000);
+    world(points3_11, 3, 2, 15000);
+  }, 100);
+}
 
 // Sending node 4: FB
-setTimeout(function() {  
-  world(points4_1, 4);
-  world(points4_2, 4);
-  world(points4_3, 4);
-  world(points4_4, 4);
-  world(points4_5, 4);
-  world(points4_6, 4);
-  world(points4_7, 4);
-  world(points4_8, 4);
-  world(points4_9, 4);
-  world(points4_10, 4);
-  world(points4_11, 4);
-}, 4500);
+function init_4() {
+  setTimeout(function() {  
+    world(points4_1, 4, 3, 10000);
+    world(points4_2, 4, 3, 10000);
+    world(points4_3, 4, 3, 10000);
+    world(points4_4, 4, 3, 10000);
+    world(points4_5, 4, 3, 10000);
+    world(points4_6, 4, 3, 10000);
+    world(points4_7, 4, 3, 10000);
+    world(points4_8, 4, 3, 10000);
+    world(points4_9, 4, 3, 10000);
+    world(points4_10, 4, 3, 10000);
+    world(points4_11, 4, 3, 10000);
+  }, 100);
+}
 
 // Sending node 5:  NFLX
-setTimeout(function() {
-  world(points5_1, 5);
-  world(points5_2, 5);
-  world(points5_3, 5);
-  world(points5_4, 5);
-  world(points5_5, 5);
-  world(points5_6, 5);
-  world(points5_7, 5);
-  world(points5_8, 5);
-  world(points5_9, 5);
-  world(points5_10, 5);
-  world(points5_11, 5);
-}, 7500);
+function init_5() {
+  setTimeout(function() {
+    world(points5_1, 5, 3, 7000);
+    world(points5_2, 5, 3, 7000);
+    world(points5_3, 5, 3, 7000);
+    world(points5_4, 5, 3, 7000);
+    world(points5_5, 5, 3, 7000);
+    world(points5_6, 5, 3, 7000);
+    world(points5_7, 5, 3, 7000);
+    world(points5_8, 5, 3, 7000);
+    world(points5_9, 5, 3, 7000);
+    world(points5_10, 5, 3, 7000);
+    world(points5_11, 5, 3, 7000);
+  }, 100);
+}
 
 // Sending node 6:  TSLA
-setTimeout(function() {
-  world(points6_1, 6);
-  world(points6_2, 6);
-  world(points6_3, 6);
-  world(points6_4, 6);
-  world(points6_5, 6);
-  world(points6_6, 6);
-  world(points6_7, 6);
-  world(points6_8, 6);
-  world(points6_9, 6);
-  world(points6_10, 6);
-  world(points6_11, 6);
-}, 6000);
+function init_6() {
+  setTimeout(function() {
+    world(points6_1, 6, 1, 5000);
+    world(points6_2, 6, 1, 5000);
+    world(points6_3, 6, 1, 5000);
+    world(points6_4, 6, 1, 5000);
+    world(points6_5, 6, 1, 5000);
+    world(points6_6, 6, 1, 5000);
+    world(points6_7, 6, 1, 5000);
+    world(points6_8, 6, 1, 5000);
+    world(points6_9, 6, 1, 5000);
+    world(points6_10, 6, 1, 5000);
+    world(points6_11, 6, 1, 5000);
+  }, 100);
+}
 
 // Sending node 7:  NYSE
-setTimeout(function() {
-  world(points7_1, 7);
-  world(points7_2, 7);
-  world(points7_3, 7);
-  world(points7_4, 7);
-  world(points7_5, 7);
-  world(points7_6, 7);
-  world(points7_7, 7);
-  world(points7_8, 7);
-  world(points7_9, 7);
-  world(points7_10, 7);
-  world(points7_11, 7);
-}, 15000);
+function init_7() {
+  setTimeout(function() {
+    world(points7_1, 7, 5, 9000);
+    world(points7_2, 7, 5, 9000);
+    world(points7_3, 7, 5, 9000);
+    world(points7_4, 7, 5, 9000);
+    world(points7_5, 7, 5, 9000);
+    world(points7_6, 7, 5, 9000);
+    world(points7_7, 7, 5, 9000);
+    world(points7_8, 7, 5, 9000);
+    world(points7_9, 7, 5, 9000);
+    world(points7_10, 7, 5, 9000);
+    world(points7_11, 7, 5, 9000);
+  }, 100);
+}
 
 // Sending node 8:  BABA
-setTimeout(function() {
-  world(points8_1, 8);
-  world(points8_2, 8);
-  world(points8_3, 8);
-  world(points8_4, 8);
-  world(points8_5, 8);
-  world(points8_6, 8);
-  world(points8_7, 8);
-  world(points8_8, 8);
-  world(points8_9, 8);
-  world(points8_10, 8);
-  world(points8_11, 8);
-}, 13000);
+function init_8() {
+  setTimeout(function() {
+    world(points8_1, 8, 5, 12000);
+    world(points8_2, 8, 5, 12000);
+    world(points8_3, 8, 5, 12000);
+    world(points8_4, 8, 5, 12000);
+    world(points8_5, 8, 5, 12000);
+    world(points8_6, 8, 5, 12000);
+    world(points8_7, 8, 5, 12000);
+    world(points8_8, 8, 5, 12000);
+    world(points8_9, 8, 5, 12000);
+    world(points8_10, 8, 5, 12000);
+    world(points8_11, 8, 5, 12000);
+  }, 100);
+}
 
 // Sending node 9:  BAC
-setTimeout(function() {
-  world(points9_1, 9);
-  world(points9_2, 9);
-  world(points9_3, 9);
-  world(points9_4, 9);
-  world(points9_5, 9);
-  world(points9_6, 9);
-  world(points9_7, 9);
-  world(points9_8, 9);
-  world(points9_9, 9);
-  world(points9_10, 9);
-  world(points9_11, 9);
-}, 9000);
+function init_9() {
+  setTimeout(function() {
+    world(points9_1, 9, 3, 11000);
+    world(points9_2, 9, 3, 11000);
+    world(points9_3, 9, 3, 11000);
+    world(points9_4, 9, 3, 11000);
+    world(points9_5, 9, 3, 11000);
+    world(points9_6, 9, 3, 11000);
+    world(points9_7, 9, 3, 11000);
+    world(points9_8, 9, 3, 11000);
+    world(points9_9, 9, 3, 11000);
+    world(points9_10, 9, 3, 11000);
+    world(points9_11, 9, 3, 11000);
+  }, 100);
+}
 
 // Sending node 10:  KO
-setTimeout(function() { 
-  world(points10_1, 10);
-  world(points10_2, 10);
-  world(points10_3, 10);
-  world(points10_4, 10);
-  world(points10_5, 10);
-  world(points10_6, 10);
-  world(points10_7, 10);
-  world(points10_8, 10);
-  world(points10_9, 10);
-  world(points10_10, 10);
-  world(points10_11, 10);
-}, 8000);
+function init_10() {
+  setTimeout(function() { 
+    world(points10_1, 10, 2, 12000);
+    world(points10_2, 10, 2, 12000);
+    world(points10_3, 10, 2, 12000);
+    world(points10_4, 10, 2, 12000);
+    world(points10_5, 10, 2, 12000);
+    world(points10_6, 10, 2, 12000);
+    world(points10_7, 10, 2, 12000);
+    world(points10_8, 10, 2, 12000);
+    world(points10_9, 10, 2, 12000);
+    world(points10_10, 10, 2, 12000);
+    world(points10_11, 10, 2, 12000);
+  }, 100);
+}
 
 // Sending node 11:  DAL
-setTimeout(function() {
-  world(points11_1, 11);
-  world(points11_2, 11);
-  world(points11_3, 11);
-  world(points11_4, 11);
-  world(points11_5, 11);
-  world(points11_6, 11);
-  world(points11_7, 11);
-  world(points11_8, 11);
-  world(points11_9, 11);
-  world(points11_10, 11);
-  world(points11_11, 11);
-}, 12000);
+function init_11() {
+  setTimeout(function() {
+    world(points11_1, 11, 2, 13000);
+    world(points11_2, 11, 2, 13000);
+    world(points11_3, 11, 2, 13000);
+    world(points11_4, 11, 2, 13000);
+    world(points11_5, 11, 2, 13000);
+    world(points11_6, 11, 2, 13000);
+    world(points11_7, 11, 2, 13000);
+    world(points11_8, 11, 2, 13000);
+    world(points11_9, 11, 2, 13000);
+    world(points11_10, 11, 2, 13000);
+    world(points11_11, 11, 2, 13000);
+  }, 100);
+}
+
 // Sending node 12:  TWTR
-setTimeout(function() {
-  world(points12_1, 12);
-  world(points12_2, 12);
-  world(points12_3, 12);
-  world(points12_4, 12);
-  world(points12_5, 12);
-  world(points12_6, 12);
-  world(points12_7, 12);
-  world(points12_8, 12);
-  world(points12_9, 12);
-  world(points12_10, 12);
-  world(points12_11, 12);
-}, 10000);
+function init_12() {
+  setTimeout(function() {
+    world(points12_1, 12, 4, 9000);
+    world(points12_2, 12, 4, 9000);
+    world(points12_3, 12, 4, 9000);
+    world(points12_4, 12, 4, 9000);
+    world(points12_5, 12, 4, 9000);
+    world(points12_6, 12, 4, 9000);
+    world(points12_7, 12, 4, 9000);
+    world(points12_8, 12, 4, 9000);
+    world(points12_9, 12, 4, 9000);
+    world(points12_10, 12, 4, 9000);
+    world(points12_11, 12, 4, 9000);
+  }, 100);
+}
 
 // ...
 
 
 // POINTS1///////////////////////////////////////
-function world(points, nodenum) {
+function world(points, nodenum, repeat, timeout) {
+    
+    var circle_class;
+    if (nodenum == 1) {
+      circle_class = 'nasdaq';
+      node_class = 'n-nasdaq';
+    } else if (nodenum == 2) {
+      circle_class = 'aapl';
+      node_class = 'n-aapl';
+    } else if (nodenum == 3) {
+      circle_class = 'cmcsa';
+      node_class = 'n-cmcsa';
+    } else if (nodenum == 4) {
+      circle_class = 'fb';
+    } else if (nodenum == 5) {
+      circle_class = 'nflx';
+    } else if (nodenum == 6) {
+      circle_class = 'tsla';
+    } else if (nodenum == 7) {
+      circle_class = 'nyse';
+    } else if (nodenum == 8) {
+      circle_class = 'baba';
+    } else if (nodenum == 9) {
+      circle_class = 'bac';
+    } else if (nodenum == 10) {
+      circle_class = 'ko';
+    } else if (nodenum == 11) {
+      circle_class = 'dal';
+    } else if (nodenum == 12) {
+      circle_class = 'twtr';
+    }
 
-  var path = svg.append("path")
-      .data([points])
-      .attr("d", d3.svg.line()
-      .tension(0) // Catmull–Rom
-      .interpolate("cardinal-open"));
+    var path = svg.append("path")
+        .data([points])
+        .attr("d", d3.svg.line()
+        .tension(0) // Catmull–Rom
+        .interpolate("cardinal-open"));
+     
+    var circle = [];
 
-  var circle_class;
-  if (nodenum == 1) {
-    circle_class = 'nasdaq';
-  } else if (nodenum == 2) {
-    circle_class = 'aapl';
-  } else if (nodenum == 3) {
-    circle_class = 'cmcsa';
-  } else if (nodenum == 4) {
-    circle_class = 'fb';
-  } else if (nodenum == 5) {
-    circle_class = 'nflx';
-  } else if (nodenum == 6) {
-    circle_class = 'tsla';
-  } else if (nodenum == 7) {
-    circle_class = 'nyse';
-  } else if (nodenum == 8) {
-    circle_class = 'baba';
-  } else if (nodenum == 9) {
-    circle_class = 'bac';
-  } else if (nodenum == 10) {
-    circle_class = 'ko';
-  } else if (nodenum == 11) {
-    circle_class = 'dal';
-  } else if (nodenum == 12) {
-    circle_class = 'twtr';
-  }
+    for (i=0; i<repeat; i++) {
+      circle[i] = svg.append("circle")
+        .attr("r", 3)
+        .attr("class", circle_class)
+        .attr("transform", "translate(" + points[0] + ")");
+    }
 
+    transition();
 
+    function transition() {
+      var rep = repeat;
+      var timer=0;
+      circle.forEach(function(circ) {
+        setTimeout(function() {
+          if (circ != circle[circle.length - 1]) {
+            circ.transition()
+                .duration(1000)
+                .ease("linear")
+                .attrTween("transform", translateAlong(path.node()));
+          } else {
+            circ.transition()
+                .duration(1000)
+                .ease("linear")
+                .attrTween("transform", translateAlong(path.node()))
+                .each("end", wait(timeout));
+          }
+        }, timer);
+        timer+=75;
+      });
+    }
 
-  svg.selectAll(".point")
-      .data(points)
-    .enter().append("circle")
-      .attr("r", 2)
-      .attr("transform", function(d) { return "translate(" + d + ")"; });
-   
+    function wait(t) {
+      setTimeout(function() {
+        transition();
+      }, t);
+    }
 
-  var circle = svg.append("circle")
-      .attr("r", 3)
-      .attr("class", circle_class)
-      .attr("transform", "translate(" + points[0] + ")");
-
-  transition();
-
-  function transition() {
-      circle.attr("opacity", '1');
-      circle.transition()
-          .duration(1000)
-          .ease("linear")
-          .attrTween("transform", translateAlong(path.node()))
-          .each("end", transition);
-  }
-
-  // Returns an attrTween for translating along the specified path element.
-  function translateAlong(path) {
-    var l = path.getTotalLength();
-    return function(d, i, a) {
-      return function(t) {
-        var p = path.getPointAtLength(t * l);
-        return "translate(" + p.x + "," + p.y + ")";
+    // Returns an attrTween for translating along the specified path element.
+    function translateAlong(path) {
+      var l = path.getTotalLength();
+      return function(d, i, a) {
+        return function(t) {
+          var p = path.getPointAtLength(t * l);
+          return "translate(" + p.x + "," + p.y + ")";
+        };
       };
-    };
-  }
+    }
+
+    svg.selectAll(".point")
+        .data(points)
+      .enter().append("circle")
+        .attr("r", 1)
+        .attr("transform", function(d) { return "translate(" + d + ")"; });
 }
 
 </script>

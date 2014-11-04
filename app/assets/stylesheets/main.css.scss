@@ -5,16 +5,23 @@
 #index {
 	padding-top: 100px;
 	text-align: center;
+	width: 900px;
+	margin: auto;
+	position: relative;
 }
 
 #nasdaq {
-	
+	top: 100px;
+	left: 350px;
+
 	h1 {
 		background: #91BCCC;
 	}
 }
 
 #apple {
+	top: 215px;
+	left: 610px;
 
 	h1 {
 		background: #aaa;
@@ -22,6 +29,8 @@
 }
 
 #comcast {
+	top: 315px;
+	left: 760px;
 
 	h1 {
 		background: #c00;
@@ -29,6 +38,8 @@
 }
 
 #facebook {
+	top: 450px;
+	left: 870px;
 
 	h1 {
 		background: #00c;
@@ -36,6 +47,8 @@
 }
 
 #netflix {
+	top: 605px;
+	left: 760px;
 
 	h1 {
 		background: #a00;
@@ -43,6 +56,8 @@
 }
 
 #tesla {
+	top: 710px;
+	left: 610px;
 
 	h1 {
 		background: #500;
@@ -50,6 +65,8 @@
 }
 
 #nyse {
+	top: 815px;
+	left: 350px;
 
 	h1 {
 		background: #00a;
@@ -57,6 +74,8 @@
 }
 
 #alibaba {
+	top: 710px;
+	left: 95px;
 
 	h1 {
 		background: #FFB05B;
@@ -93,14 +112,18 @@
 
 #us-equity {
 	background: rgba(255,255,255,.1);
-	height: 150px;
-	width: 400px;
-	margin: 50px;
+	width: 300px;	
+	text-align: left;
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	margin-left: -150px;
 
 	h1 {
 		padding: 5px 8px;
-		font-size: 26px;
+		font-size: 20px;
 		display: block;
+		font-weight: bold;
 		margin: 0;
 		background: #888;
 	}
@@ -110,7 +133,7 @@
 
 		p {
 			margin: 0;
-			font-size: 22px;
+			font-size: 18px;
 			padding: 10px 8px;
 		}
 	}
@@ -118,33 +141,38 @@
 
 .info-box {
 	background: rgba(255,255,255,.1);
-	height: 120px;
-	width: 275px;
-	margin: 50px;
+	width: 200px;
+	position: absolute;
+	top: 0;
 
 	h1 {
 		padding: 3px 8px;
-		font-size: 20px;
+		font-size: 16px;
+		font-weight: bold;
 		display: block;
 		margin: 0;
+		text-align: left;
 
 		span {
 			float: right;
-			font-size: 20px;
-			font-weight: normal;
+			font-size: 16px;
+			font-weight: bold;
 		}
 	}
 
 	.data {
-		padding-top: 5px;
+		text-align: left;
 
 		p {
 			margin: 0;
-			font-size: 20px;
-			padding: 8px 8px;
+			font-size: 18px;
+			line-height: 20px;
+			padding: 3px 8px;
+			font-weight: normal;
 
 			span {
 				margin-left: 15px;
+				font-weight: 300;
 			}
 
 			.vol {

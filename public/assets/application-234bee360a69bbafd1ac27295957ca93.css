@@ -40,7 +40,7 @@
 /* line 40, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #facebook {
   top: 460px;
-  left: 870px;
+  left: 800px;
 }
 /* line 44, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #facebook h1 {
@@ -64,7 +64,7 @@
 }
 /* line 62, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #tesla h1 {
-  background: #381010;
+  background: #745234;
 }
 
 /* line 67, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -80,7 +80,7 @@
 /* line 76, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #alibaba {
   top: 710px;
-  left: 95px;
+  left: 120px;
 }
 /* line 80, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #alibaba h1 {
@@ -90,7 +90,7 @@
 /* line 85, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #boa {
   top: 605px;
-  left: -60px;
+  left: -30px;
 }
 /* line 89, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #boa h1 {
@@ -100,7 +100,7 @@
 /* line 94, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #ko {
   top: 460px;
-  left: -160px;
+  left: -75px;
 }
 /* line 97, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #ko h1 {
@@ -110,7 +110,7 @@
 /* line 102, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #delta {
   top: 315px;
-  left: -60px;
+  left: -30px;
 }
 /* line 106, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #delta h1 {
@@ -120,7 +120,7 @@
 /* line 111, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #twitter {
   top: 215px;
-  left: 95px;
+  left: 120px;
 }
 /* line 115, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 #twitter h1 {
@@ -134,7 +134,7 @@
   text-align: left;
   position: absolute;
   top: 15px;
-  left: 50%;
+  left: 10%;
   margin-left: -150px;
 }
 /* line 129, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -160,7 +160,7 @@
 /* line 149, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .info-box {
   background: rgba(255, 255, 255, 0.1);
-  width: 200px;
+  width: 175px;
   position: absolute;
   top: 0;
 }
@@ -192,81 +192,86 @@
   font-weight: normal;
 }
 /* line 180, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
-.info-box .data p span {
+.info-box .data p .vol {
+  margin-left: 15px;
+  font-weight: 300;
+}
+/* line 185, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p .amt {
   margin-left: 15px;
   font-weight: 300;
 }
 
-/* line 196, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 193, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 path {
   fill: none;
   stroke: rgba(255, 255, 255, 0.075);
   stroke-width: 1px;
 }
 
-/* line 202, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 199, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 circle {
-  stroke-width: 2px;
+  stroke-width: 3px;
   stroke: #fff;
   fill: transparent;
 }
 
-/* line 208, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 205, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .nasdaq {
   stroke: #922FA5;
 }
 
-/* line 212, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 209, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .aapl {
   stroke: #999;
 }
 
-/* line 216, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 213, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .cmcsa {
   stroke: #924A27;
 }
 
-/* line 220, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 217, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .fb {
   stroke: #6473C4;
 }
 
-/* line 224, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 221, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .nflx {
   stroke: #AA3934;
 }
 
-/* line 228, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 225, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .tsla {
-  stroke: #381010;
+  stroke: #745234;
 }
 
-/* line 232, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 229, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .nyse {
   stroke: #343481;
 }
 
-/* line 236, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 233, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .baba {
   stroke: #A56117;
 }
 
-/* line 240, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 237, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .bac {
   stroke: #248041;
 }
 
-/* line 244, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 241, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .ko {
   stroke: #617427;
 }
 
-/* line 248, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 245, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .dal {
   stroke: #6D2828;
 }
 
-/* line 252, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+/* line 249, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
 .twtr {
   stroke: #4B8DA2;
 }

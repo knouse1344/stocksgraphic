@@ -60,7 +60,7 @@
 	left: 610px;
 
 	h1 {
-		background: #381010;
+		background: #745234;
 	}
 }
 
@@ -123,7 +123,7 @@
 	text-align: left;
 	position: absolute;
 	top: 15px;
-	left: 50%;
+	left: 10%;
 	margin-left: -150px;
 
 	h1 {
@@ -177,18 +177,15 @@
 			padding: 3px 8px;
 			font-weight: normal;
 
-			span {
+			.vol {
 				margin-left: 15px;
 				font-weight: 300;
 			}
 
-			.vol {
-
-			}
-
 			.amt {
-
-			}
+				margin-left: 15px;
+				font-weight: 300;
+			}	
 		}
 	}
 }
@@ -200,7 +197,7 @@ path {
 }
 
 circle {
-	stroke-width: 2px;
+	stroke-width: 3px;
 	stroke: #fff;
 	fill: transparent;
 }
@@ -226,7 +223,7 @@ circle {
 }
 
 .tsla {
-	stroke: #381010;
+	stroke: #745234;
 }
 
 .nyse {

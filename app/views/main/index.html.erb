@@ -140,17 +140,13 @@ counter('dal-vol', 'dal-val', 0, 0, 134.26, 10163.04);
 counter('twtr-vol', 'twtr-val', 0, 0, 302.20, 19888.85);
 
 function counter(volid, valid, vol, val, volps, valps) {
-  if (vol > 10000000){
-    return;
-  } else {
-    setTimeout(function() {
-      vol += volps;
-      val += valps;
-      document.getElementById(volid).innerHTML = vol.formatMoney(2);
-      document.getElementById(valid).innerHTML = val.formatMoney(2);
-      counter(volid, valid, vol, val, volps, valps);
-    }, 1000);
-  }
+  setTimeout(function() {
+    vol += volps;
+    val += valps;
+    document.getElementById(volid).innerHTML = vol.formatMoney(2);
+    document.getElementById(valid).innerHTML = val.formatMoney(2);
+    counter(volid, valid, vol, val, volps, valps);
+  }, 1000);
 }
 
 Number.prototype.formatMoney = function(c, d, t){

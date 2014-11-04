@@ -5,103 +5,103 @@
         <div id="us-equity">
           <h1>TOTAL U.S. EQUITY</h1>
           <div class="data">
-            <p>V<span class="vol us-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="us-vol" class="vol"></span></p>
+            <p>$<span id="us-val" class="amt"></span></p>
           </div>
         </div>
         <div id="nasdaq" class="info-box">
           <h1>NASDAQ</h1>
           <div class="data">
-            <p>V<span class="vol nasdaq-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="nasdaq-vol" class="vol nasdaq-vol"></span></p>
+            <p>$<span id="nasdaq-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="apple" class="info-box">
           <h1>AAPL<span>NASDAQ</span></h1>
           <div class="data">
-            <p>V<span class="vol aapl-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="aapl-vol" class="vol aapl-vol"></span></p>
+            <p>$<span id="aapl-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="comcast" class="info-box">
           <h1>CMCSA<span>NASDAQ</span></h1>
           <div class="data">
-            <p>V<span class="vol cmcsa-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="cmcsa-vol" class="vol cmcsa-vol"></span></p>
+            <p>$<span id="cmcsa-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="facebook" class="info-box">
           <h1>FB<span>NASDAQ</span></h1>
           <div class="data">
-            <p>V<span class="vol fb-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="fb-vol" class="vol fb-vol"></span></p>
+            <p>$<span id="fb-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="netflix" class="info-box">
           <h1>NFLX<span>NASDAQ</span></h1>
           <div class="data">
-            <p>V<span class="vol nflx-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="nflx-vol" class="vol nflx-vol"></span></p>
+            <p>$<span id="nflx-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="tesla" class="info-box">
           <h1>TSLA<span>NASDAQ</span></h1>
           <div class="data">
-            <p>V<span class="vol tsla-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="tsla-vol" class="vol tsla-vol"></span></p>
+            <p>$<span id="tsla-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="nyse" class="info-box">
           <h1>NYSE</h1>
           <div class="data">
-            <p>V<span class="vol nyse-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="nyse-vol" class="vol nyse-vol"></span></p>
+            <p>$<span id="nyse-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="alibaba" class="info-box">
           <h1>BABA<span>NYSE</span></h1>
           <div class="data">
-            <p>V<span class="vol baba-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="baba-vol" class="vol baba-vol"></span></p>
+            <p>$<span id="baba-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="boa" class="info-box">
           <h1>BAC<span>NYSE</span></h1>
           <div class="data">
-            <p>V<span class="vol bac-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="bac-vol" class="vol bac-vol"></span></p>
+            <p>$<span id="bac-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="ko" class="info-box">
           <h1>KO<span>NYSE</span></h1>
           <div class="data">
-            <p>V<span class="vol ko-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="ko-vol" class="vol ko-vol"></span></p>
+            <p>$<span id="ko-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="delta" class="info-box">
           <h1>DAL<span>NYSE</span></h1>
           <div class="data">
-            <p>V<span class="vol dal-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="dal-vol" class="vol dal-vol"></span></p>
+            <p>$<span id="dal-val" class="amt"></span></p>
           </div>
         </div>
 
         <div id="twitter" class="info-box">
           <h1>TWTR<span>NYSE</span></h1>
           <div class="data">
-            <p>V<span class="vol twtr-vol"></span></p>
-            <p>$<span class="amt">xxxxx.xx</span></p>
+            <p>V<span id="twtr-vol" class="vol twtr-vol"></span></p>
+            <p>$<span id="twtr-val" class="amt"></span></p>
           </div>
         </div>
 			</div>
@@ -111,96 +111,35 @@
 
 <script>
 
-$('.us-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
+var usvol = 0;
 
-$('.nasdaq-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
+counter('us-vol', 'us-val', 0, 0, 32369.68, 1065509.26);
+counter('nasdaq-vol', 'nasdaq-val', 0, 0, 20398.03, 653240.74);
+counter('aapl-vol', 'aapl-val', 0, 0, 751.74, 66837.36);
+counter('cmcsa-vol', 'cmcsa-val', 0, 0, 144.56, 14357.62);
+counter('fb-vol', 'fb-val', 0, 0, 384.14, 29350.49);
+counter('nflx-vol', 'nflx-val', 0, 0, 21.06, 11034.65);
+counter('tsla-vol', 'tsla-val', 0, 0, 70.02, 15162.39);
+counter('nyse-vol', 'nyse-val', 0, 0, 11971.64, 412268.52);
+counter('baba-vol', 'baba-val', 0, 0, 527.43, 10467.46);
+counter('bac-vol', 'bac-val', 0, 0, 971.06, 19971.55);
+counter('ko-vol', 'ko-val', 0, 0, 175.46, 13434.39);
+counter('dal-vol', 'dal-val', 0, 0, 134.26, 10163.04);
+counter('twtr-vol', 'twtr-val', 0, 0, 302.20, 19888.85);
 
-$('.aapl-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.cmcsa-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.fb-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.tsla-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.nflx-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.nyse-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.baba-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.bac-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.ko-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.dal-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
-
-$('.twtr-vol').counter({
-  initial: "00000.00",
-  direction: 'up',
-  format: "99999.99",
-  interval: 100
-});
+function counter(volid, valid, vol, val, volps, valps) {
+  if (vol > 300000){
+    return;
+  } else {
+    setTimeout(function() {
+      vol += volps;
+      val += valps;
+      document.getElementById(volid).innerHTML = vol.toFixed(2);
+      document.getElementById(valid).innerHTML = val.toFixed(2);
+      counter(volid, valid, vol, val, volps, valps);
+    }, 1000);
+  }
+}
 
 // Node 1: NASDAQ
 var points1 = [

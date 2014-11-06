@@ -5,9 +5,13 @@
 #index {
 	padding-top: 100px;
 	text-align: center;
-	max-width: 900px;
+	width: 900px;
 	margin: auto;
 	position: relative;
+}
+
+.information {
+	padding: 100px 0;
 }
 
 #start {
@@ -424,6 +428,11 @@ circle {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	#index {
+		width: 830px;
+	}
+
 	#nasdaq {
 		top: 92px;
 		left: 325px;
@@ -641,6 +650,9 @@ circle {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+	#index {
+		width: 570px;
+	}
 
 	#us-equity {
 		background: rgba(255,255,255,.1);

@@ -5,9 +5,24 @@
 #index {
 	padding-top: 100px;
 	text-align: center;
-	width: 900px;
+	max-width: 900px;
 	margin: auto;
 	position: relative;
+}
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+
+	.svg-content {
+		display: inline-block;
+		position: absolute;
+		left: 0;
+	}
 }
 
 #nasdaq {
@@ -306,7 +321,7 @@
 
 path {
   fill: none;
-  stroke: rgba(255,255,255,.075);
+  stroke: rgba(255,255,255,.06);
   stroke-width: 1px;
 }
 

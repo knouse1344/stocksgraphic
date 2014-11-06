@@ -116,6 +116,9 @@
           </div>
         </div>
         <div class="node n-twtr"></div>
+        <div class="svg-container">
+
+        </div>
       </div>
     </div>
   </div>
@@ -713,9 +716,10 @@ var points12_11 = [
 ];
 
 
-var svg = d3.select("#index").append("svg")
-    .attr("width", 900)
-    .attr("height", 1000);
+var svg = d3.select(".svg-container").append("svg")
+    .attr("viewBox", "0 0 900 900")
+    .attr("class", "svg-content")
+    .attr("preserveAspectRatio", "xMinYMin meet");
 
 init_1();
 init_2();
@@ -734,204 +738,204 @@ init_12();
 // Sending node 1: NASDAQ 
 function init_1() {
   setTimeout(function() { 
-    world(points1, 1, 4, 3000);
-    world(points2, 1, 4, 3000);
-    world(points3, 1, 4, 3000);
-    world(points4, 1, 4, 3000);
-    world(points5, 1, 4, 3000);
-    world(points6, 1, 4, 3000);
-    world(points7, 1, 4, 3000);
-    world(points8, 1, 4, 3000);
-    world(points9, 1, 4, 3000);
-    world(points10, 1, 4, 3000);
-    world(points11, 1, 4, 3000);
+    world(points1, 1, 10, 5000);
+    world(points2, 1, 10, 5000);
+    world(points3, 1, 10, 5000);
+    world(points4, 1, 10, 5000);
+    world(points5, 1, 10, 5000);
+    world(points6, 1, 10, 5000);
+    world(points7, 1, 10, 5000);
+    world(points8, 1, 10, 5000);
+    world(points9, 1, 10, 5000);
+    world(points10, 1, 10, 5000);
+    world(points11, 1, 10, 5000);
   }, 100);
 }
 
 // Sending node 2: AAPL 
 function init_2() {
   setTimeout(function() {
-    world(points2_1, 2, 10, 8000);
-    world(points2_2, 2, 10, 8000);
-    world(points2_3, 2, 10, 8000);
-    world(points2_4, 2, 10, 8000);
-    world(points2_5, 2, 10, 8000);
-    world(points2_6, 2, 10, 8000);
-    world(points2_7, 2, 10, 8000);
-    world(points2_8, 2, 10, 8000);
-    world(points2_9, 2, 10, 8000);
-    world(points2_10, 2, 10, 8000);
-    world(points2_11, 2, 10, 8000);
+    world(points2_1, 2, 4, 3000);
+    world(points2_2, 2, 4, 3000);
+    world(points2_3, 2, 4, 3000);
+    world(points2_4, 2, 4, 3000);
+    world(points2_5, 2, 4, 3000);
+    world(points2_6, 2, 4, 3000);
+    world(points2_7, 2, 4, 3000);
+    world(points2_8, 2, 4, 3000);
+    world(points2_9, 2, 4, 3000);
+    world(points2_10, 2, 4, 3000);
+    world(points2_11, 2, 4, 3000);
   }, 100);
 }
 
 // Sending node 3:  CMCSA
 function init_3() {
   setTimeout(function() {
-    world(points3_1, 3, 2, 15000);
-    world(points3_2, 3, 2, 15000);
-    world(points3_3, 3, 2, 15000);
-    world(points3_4, 3, 2, 15000);
-    world(points3_5, 3, 2, 15000);
-    world(points3_6, 3, 2, 15000);
-    world(points3_7, 3, 2, 15000);
-    world(points3_8, 3, 2, 15000);
-    world(points3_9, 3, 2, 15000);
-    world(points3_10, 3, 2, 15000);
-    world(points3_11, 3, 2, 15000);
+    world(points3_1, 3, 1, 13000);
+    world(points3_2, 3, 1, 13000);
+    world(points3_3, 3, 1, 13000);
+    world(points3_4, 3, 1, 13000);
+    world(points3_5, 3, 1, 13000);
+    world(points3_6, 3, 1, 13000);
+    world(points3_7, 3, 1, 13000);
+    world(points3_8, 3, 1, 13000);
+    world(points3_9, 3, 1, 13000);
+    world(points3_10, 3, 1, 13000);
+    world(points3_11, 3, 1, 13000);
   }, 100);
 }
 
 // Sending node 4: FB
 function init_4() {
   setTimeout(function() {  
-    world(points4_1, 4, 3, 10000);
-    world(points4_2, 4, 3, 10000);
-    world(points4_3, 4, 3, 10000);
-    world(points4_4, 4, 3, 10000);
-    world(points4_5, 4, 3, 10000);
-    world(points4_6, 4, 3, 10000);
-    world(points4_7, 4, 3, 10000);
-    world(points4_8, 4, 3, 10000);
-    world(points4_9, 4, 3, 10000);
-    world(points4_10, 4, 3, 10000);
-    world(points4_11, 4, 3, 10000);
+    world(points4_1, 4, 2, 7000);
+    world(points4_2, 4, 2, 7000);
+    world(points4_3, 4, 2, 7000);
+    world(points4_4, 4, 2, 7000);
+    world(points4_5, 4, 2, 7000);
+    world(points4_6, 4, 2, 7000);
+    world(points4_7, 4, 2, 7000);
+    world(points4_8, 4, 2, 7000);
+    world(points4_9, 4, 2, 7000);
+    world(points4_10, 4, 2, 7000);
+    world(points4_11, 4, 2, 7000);
   }, 100);
 }
 
 // Sending node 5:  NFLX
 function init_5() {
   setTimeout(function() {
-    world(points5_1, 5, 3, 7000);
-    world(points5_2, 5, 3, 7000);
-    world(points5_3, 5, 3, 7000);
-    world(points5_4, 5, 3, 7000);
-    world(points5_5, 5, 3, 7000);
-    world(points5_6, 5, 3, 7000);
-    world(points5_7, 5, 3, 7000);
-    world(points5_8, 5, 3, 7000);
-    world(points5_9, 5, 3, 7000);
-    world(points5_10, 5, 3, 7000);
-    world(points5_11, 5, 3, 7000);
+    world(points5_1, 5, 1, 18000);
+    world(points5_2, 5, 1, 18000);
+    world(points5_3, 5, 1, 18000);
+    world(points5_4, 5, 1, 18000);
+    world(points5_5, 5, 1, 18000);
+    world(points5_6, 5, 1, 18000);
+    world(points5_7, 5, 1, 18000);
+    world(points5_8, 5, 1, 18000);
+    world(points5_9, 5, 1, 18000);
+    world(points5_10, 5, 1, 18000);
+    world(points5_11, 5, 1, 18000);
   }, 100);
 }
 
 // Sending node 6:  TSLA
 function init_6() {
   setTimeout(function() {
-    world(points6_1, 6, 1, 5000);
-    world(points6_2, 6, 1, 5000);
-    world(points6_3, 6, 1, 5000);
-    world(points6_4, 6, 1, 5000);
-    world(points6_5, 6, 1, 5000);
-    world(points6_6, 6, 1, 5000);
-    world(points6_7, 6, 1, 5000);
-    world(points6_8, 6, 1, 5000);
-    world(points6_9, 6, 1, 5000);
-    world(points6_10, 6, 1, 5000);
-    world(points6_11, 6, 1, 5000);
+    world(points6_1, 6, 1, 13000);
+    world(points6_2, 6, 1, 13000);
+    world(points6_3, 6, 1, 13000);
+    world(points6_4, 6, 1, 13000);
+    world(points6_5, 6, 1, 13000);
+    world(points6_6, 6, 1, 13000);
+    world(points6_7, 6, 1, 13000);
+    world(points6_8, 6, 1, 13000);
+    world(points6_9, 6, 1, 13000);
+    world(points6_10, 6, 1, 13000);
+    world(points6_11, 6, 1, 13000);
   }, 100);
 }
 
 // Sending node 7:  NYSE
 function init_7() {
   setTimeout(function() {
-    world(points7_1, 7, 5, 9000);
-    world(points7_2, 7, 5, 9000);
-    world(points7_3, 7, 5, 9000);
-    world(points7_4, 7, 5, 9000);
-    world(points7_5, 7, 5, 9000);
-    world(points7_6, 7, 5, 9000);
-    world(points7_7, 7, 5, 9000);
-    world(points7_8, 7, 5, 9000);
-    world(points7_9, 7, 5, 9000);
-    world(points7_10, 7, 5, 9000);
-    world(points7_11, 7, 5, 9000);
+    world(points7_1, 7, 6, 5000);
+    world(points7_2, 7, 6, 5000);
+    world(points7_3, 7, 6, 5000);
+    world(points7_4, 7, 6, 5000);
+    world(points7_5, 7, 6, 5000);
+    world(points7_6, 7, 6, 5000);
+    world(points7_7, 7, 6, 5000);
+    world(points7_8, 7, 6, 5000);
+    world(points7_9, 7, 6, 5000);
+    world(points7_10, 7, 6, 5000);
+    world(points7_11, 7, 6, 5000);
   }, 100);
 }
 
 // Sending node 8:  BABA
 function init_8() {
   setTimeout(function() {
-    world(points8_1, 8, 5, 12000);
-    world(points8_2, 8, 5, 12000);
-    world(points8_3, 8, 5, 12000);
-    world(points8_4, 8, 5, 12000);
-    world(points8_5, 8, 5, 12000);
-    world(points8_6, 8, 5, 12000);
-    world(points8_7, 8, 5, 12000);
-    world(points8_8, 8, 5, 12000);
-    world(points8_9, 8, 5, 12000);
-    world(points8_10, 8, 5, 12000);
-    world(points8_11, 8, 5, 12000);
+    world(points8_1, 8, 3, 19000);
+    world(points8_2, 8, 3, 19000);
+    world(points8_3, 8, 3, 19000);
+    world(points8_4, 8, 3, 19000);
+    world(points8_5, 8, 3, 19000);
+    world(points8_6, 8, 3, 19000);
+    world(points8_7, 8, 3, 19000);
+    world(points8_8, 8, 3, 19000);
+    world(points8_9, 8, 3, 19000);
+    world(points8_10, 8, 3, 19000);
+    world(points8_11, 8, 3, 19000);
   }, 100);
 }
 
 // Sending node 9:  BAC
 function init_9() {
   setTimeout(function() {
-    world(points9_1, 9, 3, 11000);
-    world(points9_2, 9, 3, 11000);
-    world(points9_3, 9, 3, 11000);
-    world(points9_4, 9, 3, 11000);
-    world(points9_5, 9, 3, 11000);
-    world(points9_6, 9, 3, 11000);
-    world(points9_7, 9, 3, 11000);
-    world(points9_8, 9, 3, 11000);
-    world(points9_9, 9, 3, 11000);
-    world(points9_10, 9, 3, 11000);
-    world(points9_11, 9, 3, 11000);
+    world(points9_1, 9, 5, 10000);
+    world(points9_2, 9, 5, 10000);
+    world(points9_3, 9, 5, 10000);
+    world(points9_4, 9, 5, 10000);
+    world(points9_5, 9, 5, 10000);
+    world(points9_6, 9, 5, 10000);
+    world(points9_7, 9, 5, 10000);
+    world(points9_8, 9, 5, 10000);
+    world(points9_9, 9, 5, 10000);
+    world(points9_10, 9, 5, 10000);
+    world(points9_11, 9, 5, 10000);
   }, 100);
 }
 
 // Sending node 10:  KO
 function init_10() {
   setTimeout(function() { 
-    world(points10_1, 10, 2, 12000);
-    world(points10_2, 10, 2, 12000);
-    world(points10_3, 10, 2, 12000);
-    world(points10_4, 10, 2, 12000);
-    world(points10_5, 10, 2, 12000);
-    world(points10_6, 10, 2, 12000);
-    world(points10_7, 10, 2, 12000);
-    world(points10_8, 10, 2, 12000);
-    world(points10_9, 10, 2, 12000);
-    world(points10_10, 10, 2, 12000);
-    world(points10_11, 10, 2, 12000);
+    world(points10_1, 10, 1, 15000);
+    world(points10_2, 10, 1, 15000);
+    world(points10_3, 10, 1, 15000);
+    world(points10_4, 10, 1, 15000);
+    world(points10_5, 10, 1, 15000);
+    world(points10_6, 10, 1, 15000);
+    world(points10_7, 10, 1, 15000);
+    world(points10_8, 10, 1, 15000);
+    world(points10_9, 10, 1, 15000);
+    world(points10_10, 10, 1, 15000);
+    world(points10_11, 10, 1, 15000);
   }, 100);
 }
 
 // Sending node 11:  DAL
 function init_11() {
   setTimeout(function() {
-    world(points11_1, 11, 2, 13000);
-    world(points11_2, 11, 2, 13000);
-    world(points11_3, 11, 2, 13000);
-    world(points11_4, 11, 2, 13000);
-    world(points11_5, 11, 2, 13000);
-    world(points11_6, 11, 2, 13000);
-    world(points11_7, 11, 2, 13000);
-    world(points11_8, 11, 2, 13000);
-    world(points11_9, 11, 2, 13000);
-    world(points11_10, 11, 2, 13000);
-    world(points11_11, 11, 2, 13000);
+    world(points11_1, 11, 1, 19000);
+    world(points11_2, 11, 1, 19000);
+    world(points11_3, 11, 1, 19000);
+    world(points11_4, 11, 1, 19000);
+    world(points11_5, 11, 1, 19000);
+    world(points11_6, 11, 1, 19000);
+    world(points11_7, 11, 1, 19000);
+    world(points11_8, 11, 1, 19000);
+    world(points11_9, 11, 1, 19000);
+    world(points11_10, 11, 1, 19000);
+    world(points11_11, 11, 1, 19000);
   }, 100);
 }
 
 // Sending node 12:  TWTR
 function init_12() {
   setTimeout(function() {
-    world(points12_1, 12, 4, 9000);
-    world(points12_2, 12, 4, 9000);
-    world(points12_3, 12, 4, 9000);
-    world(points12_4, 12, 4, 9000);
-    world(points12_5, 12, 4, 9000);
-    world(points12_6, 12, 4, 9000);
-    world(points12_7, 12, 4, 9000);
-    world(points12_8, 12, 4, 9000);
-    world(points12_9, 12, 4, 9000);
-    world(points12_10, 12, 4, 9000);
-    world(points12_11, 12, 4, 9000);
+    world(points12_1, 12, 1, 10000);
+    world(points12_2, 12, 1, 10000);
+    world(points12_3, 12, 1, 10000);
+    world(points12_4, 12, 1, 10000);
+    world(points12_5, 12, 1, 10000);
+    world(points12_6, 12, 1, 10000);
+    world(points12_7, 12, 1, 10000);
+    world(points12_8, 12, 1, 10000);
+    world(points12_9, 12, 1, 10000);
+    world(points12_10, 12, 1, 10000);
+    world(points12_11, 12, 1, 10000);
   }, 100);
 }
 

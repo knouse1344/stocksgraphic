@@ -63,7 +63,7 @@
 
 #comcast {
 	top: 315px;
-	left: 760px;
+	left: 660px;
 
 	h1 {
 		background: #924A27;
@@ -73,7 +73,7 @@
 .n-cmcsa {
 	background: #924A27;
 	border-radius: 10px;
-	left: 743px;
+	left: 643px;
 	top: 393px;
 	width: 14px;
 	height: 14px;
@@ -81,7 +81,7 @@
 
 #facebook {
 	top: 460px;
-	left: 800px;
+	left: 715px;
 
 	h1 {
 		background: #6473C4;
@@ -91,7 +91,7 @@
 .n-fb {
 	background: #6473C4;
 	border-radius: 10px;
-	left: 778px;
+	left: 693px;
 	top: 493px;
 	width: 14px;
 	height: 14px;
@@ -99,7 +99,7 @@
 
 #netflix {
 	top: 605px;
-	left: 760px;
+	left: 660px;
 
 	h1 {
 		background: #AA3934;
@@ -109,7 +109,7 @@
 .n-nflx {
 	background: #AA3934;
 	border-radius: 10px;
-	left: 743px;
+	left: 643px;
 	top: 593px;
 	width: 14px;
 	height: 14px;
@@ -171,7 +171,7 @@
 
 #boa {
 	top: 605px;
-	left: -30px;
+	left: 70px;
 
 	h1 {
 		background: #248041;
@@ -181,7 +181,7 @@
 .n-bac {
 	background: #248041;
 	border-radius: 10px;
-	left: 143px;
+	left: 243px;
 	top: 593px;
 	width: 14px;
 	height: 14px;
@@ -189,7 +189,7 @@
 
 #ko {
 	top: 460px;
-	left: -75px;
+	left: 10px;
 	h1 {
 		background: #617427;
 	}
@@ -198,7 +198,7 @@
 .n-ko {
 	background: #617427;
 	border-radius: 10px;
-	left: 108px;
+	left: 193px;
 	top: 493px;
 	width: 14px;
 	height: 14px;
@@ -206,7 +206,7 @@
 
 #delta {
 	top: 315px;
-	left: -30px;
+	left: 70px;
 
 	h1 {
 		background: #6D2828;
@@ -216,7 +216,7 @@
 .n-dal {
 	background: #6D2828;
 	border-radius: 10px;
-	left: 143px;
+	left: 243px;
 	top: 393px;
 	width: 14px;
 	height: 14px;
@@ -392,4 +392,517 @@ circle {
 .twtr {
 	stroke: #4B8DA2;
 	fill: transparent;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#nasdaq {
+		top: 92px;
+		left: 325px;
+
+		h1 {
+			background: #922FA5;
+		}
+	}
+
+	.n-nasdaq {
+		background: #922FA5;
+		border-radius: 10px;
+		left: 408px;
+		top: 185px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#apple {
+		top: 197px;
+		left: 567px;
+
+		h1 {
+			background: #999;
+		}
+	}
+
+	.n-aapl {
+		background: #999;
+		border-radius: 10px;
+		left: 546px;
+		top: 277px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#comcast {
+		top: 313px;
+		left: 613px;
+
+		h1 {
+			background: #924A27;
+		}
+	}
+
+	.n-cmcsa {
+		background: #924A27;
+		border-radius: 10px;
+		left: 593px;
+		top: 370px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#facebook {
+		top: 431px;
+		left: 659px;
+
+		h1 {
+			background: #6473C4;
+		}
+	}
+
+	.n-fb {
+		background: #6473C4;
+		border-radius: 10px;
+		left: 638px;
+		top: 462px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#netflix {
+		top: 550px;
+		left: 613px;
+
+		h1 {
+			background: #AA3934;
+		}
+	}
+
+	.n-nflx {
+		background: #AA3934;
+		border-radius: 10px;
+		left: 593px;
+		top: 555px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#tesla {
+		top: 669px;
+		left: 560px;
+
+		h1 {
+			background: #745234;
+		}
+	}
+
+	.n-tsla {
+		background: #745234;
+		border-radius: 10px;
+		left: 546px;
+		top: 647px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#nyse {
+		top: 760px;
+		left: 325px;
+
+		h1 {
+			background: #343481;
+		}
+	}
+
+	.n-nyse {
+		background: #343481;
+		border-radius: 10px;
+		left: 408px;
+		top: 738px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#alibaba {
+		top: 671px;
+		left: 93px;
+
+		h1 {
+			background: #A56117;
+		}
+	}
+
+	.n-baba {
+		background: #A56117;
+		border-radius: 10px;
+		left: 270px;
+		top: 647px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#boa {
+		top: 550px;
+		left: 37px;
+
+		h1 {
+			background: #248041;
+		}
+	}
+
+	.n-bac {
+		background: #248041;
+		border-radius: 10px;
+		left: 223px;
+		top: 554px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#ko {
+		top: 434px;
+		left: -8px;
+		h1 {
+			background: #617427;
+		}
+	}
+
+	.n-ko {
+		background: #617427;
+		border-radius: 10px;
+		left: 177px;
+		top: 462px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#delta {
+		top: 315px;
+		left: 40px;
+
+		h1 {
+			background: #6D2828;
+		}
+	}
+
+	.n-dal {
+		background: #6D2828;
+		border-radius: 10px;
+		left: 224px;
+		top: 370px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#twitter {
+		top: 193px;
+		left: 92px;
+
+		h1 {
+			background: #4B8DA2;
+		}
+	}
+
+	.n-twtr {
+		background: #4B8DA2;
+		border-radius: 10px;
+		left: 269px;
+		top: 278px;
+		width: 14px;
+		height: 14px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	#us-equity {
+		background: rgba(255,255,255,.1);
+		width: 200px;	
+		text-align: left;
+		position: absolute;
+		top: 15px;
+		left: 10%;
+		margin-left: -150px;
+
+		h1 {
+			padding: 4px 8px;
+			font-size: 18px;
+			display: block;
+			font-weight: bold;
+			margin: 0;
+			background: #888;
+		}
+
+		.data {
+			padding-top: 8px;
+
+			p {
+				margin: 0;
+				font-size: 14px;
+				padding: 5px 8px;
+
+				span {
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+
+	.info-box {
+		background: rgba(255,255,255,.1);
+		width: 175px;
+		position: absolute;
+		top: 0;
+
+		h1 {
+			padding: 3px 8px;
+			font-size: 14px;
+			font-weight: bold;
+			display: block;
+			margin: 0;
+			text-align: left;
+
+			span {
+				float: right;
+				font-size: 14px;
+				font-weight: bold;
+			}
+		}
+
+		.data {
+			text-align: left;
+
+			p {
+				margin: 0;
+				font-size: 12px;
+				line-height: 20px;
+				padding: 3px 8px;
+				font-weight: normal;
+
+				.vol {
+					font-size: 12px;
+					margin-left: 15px;
+					font-weight: 300;
+				}
+
+				.amt {
+					font-size: 12px;
+					margin-left: 15px;
+					font-weight: 300;
+				}	
+			}
+		}
+	}
+	#nasdaq {
+		top: 72px;
+		left: 199px;
+
+		h1 {
+			background: #922FA5;
+		}
+	}
+
+	.n-nasdaq {
+		background: #922FA5;
+		border-radius: 10px;
+		left: 278px;
+		top: 156px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#apple {
+		top: 138px;
+		left: 386px;
+
+		h1 {
+			background: #999;
+		}
+	}
+
+	.n-aapl {
+		background: #999;
+		border-radius: 10px;
+		left: 373px;
+		top: 220px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#comcast {
+		top: 226px;
+		left: 429px;
+
+		h1 {
+			background: #924A27;
+		}
+	}
+
+	.n-cmcsa {
+		background: #924A27;
+		border-radius: 10px;
+		left: 405px;
+		top: 283px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#facebook {
+		top: 313px;
+		left: 462px;
+
+		h1 {
+			background: #6473C4;
+		}
+	}
+
+	.n-fb {
+		background: #6473C4;
+		border-radius: 10px;
+		left: 437px;
+		top: 346px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#netflix {
+		top: 405px;
+		left: 428px;
+
+		h1 {
+			background: #AA3934;
+		}
+	}
+
+	.n-nflx {
+		background: #AA3934;
+		border-radius: 10px;
+		left: 406px;
+		top: 411px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#tesla {
+		top: 492px;
+		left: 387px;
+
+		h1 {
+			background: #745234;
+		}
+	}
+
+	.n-tsla {
+		background: #745234;
+		border-radius: 10px;
+		left: 373px;
+		top: 473px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#nyse {
+		top: 563px;
+		left: 202px;
+
+		h1 {
+			background: #343481;
+		}
+	}
+
+	.n-nyse {
+		background: #343481;
+		border-radius: 10px;
+		left: 278px;
+		top: 536px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#alibaba {
+		top: 493px;
+		left: 12px;
+
+		h1 {
+			background: #A56117;
+		}
+	}
+
+	.n-baba {
+		background: #A56117;
+		border-radius: 10px;
+		left: 183px;
+		top: 473px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#boa {
+		top: 406px;
+		left: -31px;
+
+		h1 {
+			background: #248041;
+		}
+	}
+
+	.n-bac {
+		background: #248041;
+		border-radius: 10px;
+		left: 150px;
+		top: 411px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#ko {
+		top: 315px;
+		left: -65px;
+		h1 {
+			background: #617427;
+		}
+	}
+
+	.n-ko {
+		background: #617427;
+		border-radius: 10px;
+		left: 119px;
+		top: 346px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#delta {
+		top: 225px;
+		left: -31px;
+
+		h1 {
+			background: #6D2828;
+		}
+	}
+
+	.n-dal {
+		background: #6D2828;
+		border-radius: 10px;
+		left: 152px;
+		top: 282px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#twitter {
+		top: 134px;
+		left: 12px;
+
+		h1 {
+			background: #4B8DA2;
+		}
+	}
+
+	.n-twtr {
+		background: #4B8DA2;
+		border-radius: 10px;
+		left: 183px;
+		top: 219px;
+		width: 14px;
+		height: 14px;
+	}
 }

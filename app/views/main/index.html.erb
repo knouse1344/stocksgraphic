@@ -1,9 +1,9 @@
 <div class="container">
+  <div id="start" onclick="go()"><h1>START</h1></div>
   <div class="row">
     <div class="col-sm-12">
       <div id="index">
         <div class="svg-container">
-
         </div>
         <div id="us-equity">
           <h1>TOTAL U.S. EQUITY</h1>
@@ -129,28 +129,52 @@
 
 var usvol = 0;
 
-counter('us-vol', 'us-val', 0, 0, 32369.68, 1065509.26);
-counter('nasdaq-vol', 'nasdaq-val', 0, 0, 20398.03, 653240.74);
-counter('aapl-vol', 'aapl-val', 0, 0, 751.74, 66837.36);
-counter('cmcsa-vol', 'cmcsa-val', 0, 0, 144.56, 14357.62);
-counter('fb-vol', 'fb-val', 0, 0, 384.14, 29350.49);
-counter('nflx-vol', 'nflx-val', 0, 0, 21.06, 11034.65);
-counter('tsla-vol', 'tsla-val', 0, 0, 70.02, 15162.39);
-counter('nyse-vol', 'nyse-val', 0, 0, 11971.64, 412268.52);
-counter('baba-vol', 'baba-val', 0, 0, 527.43, 10467.46);
-counter('bac-vol', 'bac-val', 0, 0, 971.06, 19971.55);
-counter('ko-vol', 'ko-val', 0, 0, 175.46, 13434.39);
-counter('dal-vol', 'dal-val', 0, 0, 134.26, 10163.04);
-counter('twtr-vol', 'twtr-val', 0, 0, 302.20, 19888.85);
+function go() { 
+  counter('us-vol', 'us-val', 0, 0, 32369.68, 1065509.26, 'yes');
+  counter('nasdaq-vol', 'nasdaq-val', 0, 0, 20398.03, 653240.74, 'yes');
+  counter('aapl-vol', 'aapl-val', 0, 0, 751.74, 66837.36, 'yes');
+  counter('cmcsa-vol', 'cmcsa-val', 0, 0, 144.56, 14357.62, 'yes');
+  counter('fb-vol', 'fb-val', 0, 0, 384.14, 29350.49, 'yes');
+  counter('nflx-vol', 'nflx-val', 0, 0, 21.06, 11034.65, 'yes');
+  counter('tsla-vol', 'tsla-val', 0, 0, 70.02, 15162.39, 'yes');
+  counter('nyse-vol', 'nyse-val', 0, 0, 11971.64, 412268.52, 'yes');
+  counter('baba-vol', 'baba-val', 0, 0, 527.43, 10467.46, 'yes');
+  counter('bac-vol', 'bac-val', 0, 0, 971.06, 19971.55, 'yes');
+  counter('ko-vol', 'ko-val', 0, 0, 175.46, 13434.39, 'yes');
+  counter('dal-vol', 'dal-val', 0, 0, 134.26, 10163.04, 'yes');
+  counter('twtr-vol', 'twtr-val', 0, 0, 302.20, 19888.85, 'yes');
+  init_1();
+  init_2();
+  init_3();
+  init_4();
+  init_5();
+  init_6();
+  init_7();
+  init_8();
+  init_9();
+  init_10();
+  init_11();
+  init_12();
+  jQuery("#start").css("display", "none");
+};
 
-function counter(volid, valid, vol, val, volps, valps) {
-  setTimeout(function() {
+function counter(volid, valid, vol, val, volps, valps, yes) {
+  if (yes=='yes') {
     vol += volps;
     val += valps;
     document.getElementById(volid).innerHTML = vol.formatMoney(2);
     document.getElementById(valid).innerHTML = val.formatMoney(2);
     counter(volid, valid, vol, val, volps, valps);
-  }, 1000);
+    yes='no';
+  } else {
+    setTimeout(function() {
+      vol += volps;
+      val += valps;
+      document.getElementById(volid).innerHTML = vol.formatMoney(2);
+      document.getElementById(valid).innerHTML = val.formatMoney(2);
+      counter(volid, valid, vol, val, volps, valps);
+    }, 1000);
+  }
 }
 
 Number.prototype.formatMoney = function(c, d, t){
@@ -721,19 +745,6 @@ var svg = d3.select(".svg-container").append("svg")
     .attr("viewBox", "0 0 900 900")
     .attr("class", "svg-content")
     .attr("preserveAspectRatio", "xMinYMin meet");
-
-init_1();
-// init_2();
-// init_3();
-// init_4();
-// init_5();
-// init_6();
-// init_7();
-// init_8();
-// init_9();
-// init_10();
-// init_11();
-// init_12();
 
 // MATRIX FORMAT: function(points, nodenum, repeat, timeout)
 // Sending node 1: NASDAQ 

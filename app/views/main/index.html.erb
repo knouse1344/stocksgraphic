@@ -1,4 +1,3 @@
-<div id="start" onclick="go()"><h1>START</h1></div>
 <div id="index">
   <div class="svg-container">
   </div>
@@ -125,7 +124,7 @@
 
 var usvol = 0;
 
-function go() { 
+$(document).ready(function() { 
   counter('us-vol', 'us-val', 0, 0, 32369.68, 1065509.26, 'yes');
   counter('nasdaq-vol', 'nasdaq-val', 0, 0, 20398.03, 653240.74, 'yes');
   counter('aapl-vol', 'aapl-val', 0, 0, 751.74, 66837.36, 'yes');
@@ -152,7 +151,7 @@ function go() {
   init_11();
   init_12();
   jQuery("#start").css("display", "none");
-};
+});
 
 function counter(volid, valid, vol, val, volps, valps, yes) {
   if (yes=='yes') {
@@ -183,6 +182,7 @@ var n = this,
     j = (j = i.length) > 3 ? j % 3 : 0;
    return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
  };
+
 
 // Node 1: NASDAQ
 var points1 = [

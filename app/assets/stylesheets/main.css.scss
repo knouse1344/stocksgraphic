@@ -429,6 +429,228 @@ circle {
 	fill: transparent;
 }
 
+@media (min-width: 1400px) {
+
+	#index {
+		width: 830px;
+	}
+
+	#nasdaq {
+		top: 92px;
+		left: 325px;
+
+		h1 {
+			background: #922FA5;
+		}
+	}
+
+	.n-nasdaq {
+		background: #922FA5;
+		border-radius: 10px;
+		left: 408px;
+		top: 185px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#apple {
+		top: 170px;
+		left: 638px;
+
+		h1 {
+			background: #999;
+		}
+	}
+
+	.n-aapl {
+		background: #999;
+		border-radius: 10px;
+		left: 616px;
+		top: 231px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#comcast {
+		top: 290px;
+		left: 775px;
+
+		h1 {
+			background: #924A27;
+		}
+	}
+
+	.n-cmcsa {
+		background: #924A27;
+		border-radius: 10px;
+		left: 754px;
+		top: 370px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#facebook {
+		top: 431px;
+		left: 845px;
+
+		h1 {
+			background: #6473C4;
+		}
+	}
+
+	.n-fb {
+		background: #6473C4;
+		border-radius: 10px;
+		left: 823px;
+		top: 462px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#netflix {
+		top: 575px;
+		left: 775px;
+
+		h1 {
+			background: #AA3934;
+		}
+	}
+
+	.n-nflx {
+		background: #AA3934;
+		border-radius: 10px;
+		left: 754px;
+		top: 555px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#tesla {
+		top: 700px;
+		left: 638px;
+
+		h1 {
+			background: #745234;
+		}
+	}
+
+	.n-tsla {
+		background: #745234;
+		border-radius: 10px;
+		left: 615px;
+		top: 694px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#nyse {
+		top: 760px;
+		left: 325px;
+
+		h1 {
+			background: #343481;
+		}
+	}
+
+	.n-nyse {
+		background: #343481;
+		border-radius: 10px;
+		left: 408px;
+		top: 738px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#alibaba {
+		top: 700px;
+		left: 18px;
+
+		h1 {
+			background: #A56117;
+		}
+	}
+
+	.n-baba {
+		background: #A56117;
+		border-radius: 10px;
+		left: 202px;
+		top: 691px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#boa {
+		top: 575px;
+		left: -124px;
+
+		h1 {
+			background: #248041;
+		}
+	}
+
+	.n-bac {
+		background: #248041;
+		border-radius: 10px;
+		left: 60px;
+		top: 554px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#ko {
+		top: 434px;
+		left: -190px;
+		h1 {
+			background: #617427;
+		}
+	}
+
+	.n-ko {
+		background: #617427;
+		border-radius: 10px;
+		left: -5px;
+		top: 462px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#delta {
+		top: 290px;
+		left: -124px;
+
+		h1 {
+			background: #6D2828;
+		}
+	}
+
+	.n-dal {
+		background: #6D2828;
+		border-radius: 10px;
+		left: 60px;
+		top: 370px;
+		width: 14px;
+		height: 14px;
+	}
+
+	#twitter {
+		top: 170px;
+		left: 18px;
+
+		h1 {
+			background: #4B8DA2;
+		}
+	}
+
+	.n-twtr {
+		background: #4B8DA2;
+		border-radius: 10px;
+		left: 200px;
+		top: 230px;
+		width: 14px;
+		height: 14px;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	#index {

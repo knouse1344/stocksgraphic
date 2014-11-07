@@ -1,0 +1,1349 @@
+/* line 5, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#index {
+  margin-top: 80px;
+  padding-top: 100px;
+  text-align: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* line 15, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.information {
+  padding: 100px 0;
+}
+
+/* line 19, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#start {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  position: absolute;
+  z-index: 99999999;
+  cursor: pointer;
+  top: 25px;
+  right: 10%;
+}
+/* line 28, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#start h1 {
+  padding: 12px 35px;
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* line 38, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#start:hover {
+  background: rgba(255, 255, 255, 0.1);
+  outline: 2px solid #444;
+}
+/* line 42, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#start:hover h1 {
+  opacity: .75;
+}
+
+/* line 48, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/* line 56, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.svg-container .svg-content {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+/* line 63, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nasdaq {
+  top: 100px;
+  left: 365px;
+}
+/* line 67, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nasdaq h1 {
+  background: #922FA5;
+}
+
+/* line 72, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-nasdaq {
+  background: #922FA5;
+  border-radius: 10px;
+  left: 443px;
+  top: 193px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 81, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#apple {
+  top: 215px;
+  left: 610px;
+}
+/* line 85, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#apple h1 {
+  background: #999;
+}
+
+/* line 90, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-aapl {
+  background: #999;
+  border-radius: 10px;
+  left: 593px;
+  top: 293px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 99, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#comcast {
+  top: 315px;
+  left: 660px;
+}
+/* line 103, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#comcast h1 {
+  background: #924A27;
+}
+
+/* line 108, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-cmcsa {
+  background: #924A27;
+  border-radius: 10px;
+  left: 643px;
+  top: 393px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 117, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#facebook {
+  top: 460px;
+  left: 715px;
+}
+/* line 121, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#facebook h1 {
+  background: #6473C4;
+}
+
+/* line 126, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-fb {
+  background: #6473C4;
+  border-radius: 10px;
+  left: 693px;
+  top: 493px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 135, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#netflix {
+  top: 605px;
+  left: 660px;
+}
+/* line 139, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#netflix h1 {
+  background: #AA3934;
+}
+
+/* line 144, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-nflx {
+  background: #AA3934;
+  border-radius: 10px;
+  left: 643px;
+  top: 593px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 153, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#tesla {
+  top: 710px;
+  left: 610px;
+}
+/* line 157, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#tesla h1 {
+  background: #745234;
+}
+
+/* line 162, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-tsla {
+  background: #745234;
+  border-radius: 10px;
+  left: 593px;
+  top: 693px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 171, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nyse {
+  top: 815px;
+  left: 365px;
+}
+/* line 175, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#nyse h1 {
+  background: #343481;
+}
+
+/* line 180, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-nyse {
+  background: #343481;
+  border-radius: 10px;
+  left: 443px;
+  top: 793px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 189, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#alibaba {
+  top: 710px;
+  left: 120px;
+}
+/* line 193, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#alibaba h1 {
+  background: #A56117;
+}
+
+/* line 198, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-baba {
+  background: #A56117;
+  border-radius: 10px;
+  left: 293px;
+  top: 693px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 207, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#boa {
+  top: 605px;
+  left: 70px;
+}
+/* line 211, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#boa h1 {
+  background: #248041;
+}
+
+/* line 216, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-bac {
+  background: #248041;
+  border-radius: 10px;
+  left: 243px;
+  top: 593px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 225, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#ko {
+  top: 460px;
+  left: 10px;
+}
+/* line 228, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#ko h1 {
+  background: #617427;
+}
+
+/* line 233, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-ko {
+  background: #617427;
+  border-radius: 10px;
+  left: 193px;
+  top: 493px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 242, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#delta {
+  top: 315px;
+  left: 70px;
+}
+/* line 246, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#delta h1 {
+  background: #6D2828;
+}
+
+/* line 251, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-dal {
+  background: #6D2828;
+  border-radius: 10px;
+  left: 243px;
+  top: 393px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 260, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#twitter {
+  top: 215px;
+  left: 120px;
+}
+/* line 264, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#twitter h1 {
+  background: #4B8DA2;
+}
+
+/* line 269, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.n-twtr {
+  background: #4B8DA2;
+  border-radius: 10px;
+  left: 293px;
+  top: 293px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 278, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity {
+  background: rgba(255, 255, 255, 0.1);
+  width: 300px;
+  text-align: left;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  margin-left: -150px;
+}
+/* line 287, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity h1 {
+  padding: 5px 8px;
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  background: #888;
+}
+/* line 296, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity .data {
+  padding-top: 8px;
+}
+/* line 299, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity .data p {
+  margin: 0;
+  font-size: 18px;
+  padding: 10px 8px;
+}
+/* line 304, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+#us-equity .data p span {
+  margin-left: 15px;
+}
+
+/* line 311, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box {
+  background: rgba(255, 255, 255, 0.1);
+  width: 175px;
+  position: absolute;
+  top: 0;
+}
+/* line 317, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box h1 {
+  padding: 3px 8px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  text-align: left;
+}
+/* line 325, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box h1 span {
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 332, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data {
+  text-align: left;
+}
+/* line 335, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 3px 8px;
+  font-weight: normal;
+}
+/* line 342, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p .vol {
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 300;
+}
+/* line 348, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.info-box .data p .amt {
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 300;
+}
+
+/* line 357, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.06);
+  stroke-width: 1px;
+}
+
+/* line 363, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+circle {
+  stroke-width: 2px;
+  fill: #fff;
+}
+
+/* line 368, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.node {
+  position: absolute;
+}
+
+/* line 372, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.nasdaq {
+  stroke: #922FA5;
+  fill: transparent;
+}
+
+/* line 377, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.aapl {
+  stroke: #999;
+  fill: transparent;
+}
+
+/* line 382, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.cmcsa {
+  stroke: #924A27;
+  fill: transparent;
+}
+
+/* line 387, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.fb {
+  stroke: #6473C4;
+  fill: transparent;
+}
+
+/* line 392, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.nflx {
+  stroke: #AA3934;
+  fill: transparent;
+}
+
+/* line 397, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.tsla {
+  stroke: #745234;
+  fill: transparent;
+}
+
+/* line 402, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.nyse {
+  stroke: #343481;
+  fill: transparent;
+}
+
+/* line 407, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.baba {
+  stroke: #A56117;
+  fill: transparent;
+}
+
+/* line 412, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.bac {
+  stroke: #248041;
+  fill: transparent;
+}
+
+/* line 417, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.ko {
+  stroke: #617427;
+  fill: transparent;
+}
+
+/* line 422, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.dal {
+  stroke: #6D2828;
+  fill: transparent;
+}
+
+/* line 427, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+.twtr {
+  stroke: #4B8DA2;
+  fill: transparent;
+}
+
+@media (min-width: 1400px) {
+  /* line 434, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #index {
+    width: 830px;
+  }
+
+  /* line 438, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq {
+    top: 92px;
+    left: 325px;
+  }
+  /* line 442, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq h1 {
+    background: #922FA5;
+  }
+
+  /* line 447, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nasdaq {
+    background: #922FA5;
+    border-radius: 10px;
+    left: 408px;
+    top: 185px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 456, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple {
+    top: 170px;
+    left: 638px;
+  }
+  /* line 460, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple h1 {
+    background: #999;
+  }
+
+  /* line 465, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-aapl {
+    background: #999;
+    border-radius: 10px;
+    left: 616px;
+    top: 231px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 474, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast {
+    top: 290px;
+    left: 775px;
+  }
+  /* line 478, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast h1 {
+    background: #924A27;
+  }
+
+  /* line 483, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-cmcsa {
+    background: #924A27;
+    border-radius: 10px;
+    left: 754px;
+    top: 370px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 492, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook {
+    top: 431px;
+    left: 845px;
+  }
+  /* line 496, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook h1 {
+    background: #6473C4;
+  }
+
+  /* line 501, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-fb {
+    background: #6473C4;
+    border-radius: 10px;
+    left: 823px;
+    top: 462px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 510, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix {
+    top: 575px;
+    left: 775px;
+  }
+  /* line 514, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix h1 {
+    background: #AA3934;
+  }
+
+  /* line 519, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nflx {
+    background: #AA3934;
+    border-radius: 10px;
+    left: 754px;
+    top: 555px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 528, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla {
+    top: 700px;
+    left: 638px;
+  }
+  /* line 532, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla h1 {
+    background: #745234;
+  }
+
+  /* line 537, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-tsla {
+    background: #745234;
+    border-radius: 10px;
+    left: 615px;
+    top: 694px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 546, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse {
+    top: 760px;
+    left: 325px;
+  }
+  /* line 550, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse h1 {
+    background: #343481;
+  }
+
+  /* line 555, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nyse {
+    background: #343481;
+    border-radius: 10px;
+    left: 408px;
+    top: 738px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 564, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba {
+    top: 700px;
+    left: 18px;
+  }
+  /* line 568, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba h1 {
+    background: #A56117;
+  }
+
+  /* line 573, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-baba {
+    background: #A56117;
+    border-radius: 10px;
+    left: 202px;
+    top: 691px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 582, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa {
+    top: 575px;
+    left: -124px;
+  }
+  /* line 586, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa h1 {
+    background: #248041;
+  }
+
+  /* line 591, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-bac {
+    background: #248041;
+    border-radius: 10px;
+    left: 60px;
+    top: 554px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 600, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko {
+    top: 434px;
+    left: -190px;
+  }
+  /* line 603, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko h1 {
+    background: #617427;
+  }
+
+  /* line 608, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-ko {
+    background: #617427;
+    border-radius: 10px;
+    left: -5px;
+    top: 462px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 617, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta {
+    top: 290px;
+    left: -124px;
+  }
+  /* line 621, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta h1 {
+    background: #6D2828;
+  }
+
+  /* line 626, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-dal {
+    background: #6D2828;
+    border-radius: 10px;
+    left: 60px;
+    top: 370px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 635, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter {
+    top: 170px;
+    left: 18px;
+  }
+  /* line 639, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter h1 {
+    background: #4B8DA2;
+  }
+
+  /* line 644, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-twtr {
+    background: #4B8DA2;
+    border-radius: 10px;
+    left: 200px;
+    top: 230px;
+    width: 14px;
+    height: 14px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 656, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #index {
+    width: 830px;
+  }
+
+  /* line 660, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq {
+    top: 92px;
+    left: 325px;
+  }
+  /* line 664, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq h1 {
+    background: #922FA5;
+  }
+
+  /* line 669, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nasdaq {
+    background: #922FA5;
+    border-radius: 10px;
+    left: 408px;
+    top: 185px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 678, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple {
+    top: 197px;
+    left: 567px;
+  }
+  /* line 682, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple h1 {
+    background: #999;
+  }
+
+  /* line 687, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-aapl {
+    background: #999;
+    border-radius: 10px;
+    left: 546px;
+    top: 277px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 696, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast {
+    top: 313px;
+    left: 613px;
+  }
+  /* line 700, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast h1 {
+    background: #924A27;
+  }
+
+  /* line 705, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-cmcsa {
+    background: #924A27;
+    border-radius: 10px;
+    left: 593px;
+    top: 370px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 714, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook {
+    top: 431px;
+    left: 659px;
+  }
+  /* line 718, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook h1 {
+    background: #6473C4;
+  }
+
+  /* line 723, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-fb {
+    background: #6473C4;
+    border-radius: 10px;
+    left: 638px;
+    top: 462px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 732, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix {
+    top: 550px;
+    left: 613px;
+  }
+  /* line 736, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix h1 {
+    background: #AA3934;
+  }
+
+  /* line 741, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nflx {
+    background: #AA3934;
+    border-radius: 10px;
+    left: 593px;
+    top: 555px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 750, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla {
+    top: 669px;
+    left: 560px;
+  }
+  /* line 754, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla h1 {
+    background: #745234;
+  }
+
+  /* line 759, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-tsla {
+    background: #745234;
+    border-radius: 10px;
+    left: 546px;
+    top: 647px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 768, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse {
+    top: 760px;
+    left: 325px;
+  }
+  /* line 772, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse h1 {
+    background: #343481;
+  }
+
+  /* line 777, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nyse {
+    background: #343481;
+    border-radius: 10px;
+    left: 408px;
+    top: 738px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 786, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba {
+    top: 671px;
+    left: 93px;
+  }
+  /* line 790, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba h1 {
+    background: #A56117;
+  }
+
+  /* line 795, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-baba {
+    background: #A56117;
+    border-radius: 10px;
+    left: 270px;
+    top: 647px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 804, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa {
+    top: 550px;
+    left: 37px;
+  }
+  /* line 808, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa h1 {
+    background: #248041;
+  }
+
+  /* line 813, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-bac {
+    background: #248041;
+    border-radius: 10px;
+    left: 223px;
+    top: 554px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 822, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko {
+    top: 434px;
+    left: -8px;
+  }
+  /* line 825, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko h1 {
+    background: #617427;
+  }
+
+  /* line 830, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-ko {
+    background: #617427;
+    border-radius: 10px;
+    left: 177px;
+    top: 462px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 839, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta {
+    top: 315px;
+    left: 40px;
+  }
+  /* line 843, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta h1 {
+    background: #6D2828;
+  }
+
+  /* line 848, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-dal {
+    background: #6D2828;
+    border-radius: 10px;
+    left: 224px;
+    top: 370px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 857, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter {
+    top: 193px;
+    left: 92px;
+  }
+  /* line 861, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter h1 {
+    background: #4B8DA2;
+  }
+
+  /* line 866, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-twtr {
+    background: #4B8DA2;
+    border-radius: 10px;
+    left: 269px;
+    top: 278px;
+    width: 14px;
+    height: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* line 877, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #index {
+    width: 570px;
+  }
+
+  /* line 881, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #us-equity {
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    margin-left: -100px;
+  }
+  /* line 890, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #us-equity h1 {
+    padding: 4px 8px;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    background: #888;
+  }
+  /* line 899, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #us-equity .data {
+    padding-top: 8px;
+  }
+  /* line 902, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #us-equity .data p {
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+  /* line 907, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #us-equity .data p span {
+    margin-left: 15px;
+  }
+
+  /* line 914, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box {
+    background: rgba(255, 255, 255, 0.1);
+    width: 175px;
+    position: absolute;
+    top: 0;
+  }
+  /* line 920, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box h1 {
+    padding: 3px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    text-align: left;
+  }
+  /* line 928, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box h1 span {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* line 935, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box .data {
+    text-align: left;
+  }
+  /* line 938, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box .data p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 3px 8px;
+    font-weight: normal;
+  }
+  /* line 945, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box .data p .vol {
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: 300;
+  }
+  /* line 951, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .info-box .data p .amt {
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: 300;
+  }
+
+  /* line 959, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq {
+    top: 72px;
+    left: 199px;
+  }
+  /* line 963, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nasdaq h1 {
+    background: #922FA5;
+  }
+
+  /* line 968, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nasdaq {
+    background: #922FA5;
+    border-radius: 10px;
+    left: 278px;
+    top: 156px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 977, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple {
+    top: 138px;
+    left: 386px;
+  }
+  /* line 981, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #apple h1 {
+    background: #999;
+  }
+
+  /* line 986, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-aapl {
+    background: #999;
+    border-radius: 10px;
+    left: 373px;
+    top: 220px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 995, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast {
+    top: 226px;
+    left: 429px;
+  }
+  /* line 999, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #comcast h1 {
+    background: #924A27;
+  }
+
+  /* line 1004, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-cmcsa {
+    background: #924A27;
+    border-radius: 10px;
+    left: 405px;
+    top: 283px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1013, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook {
+    top: 313px;
+    left: 462px;
+  }
+  /* line 1017, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #facebook h1 {
+    background: #6473C4;
+  }
+
+  /* line 1022, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-fb {
+    background: #6473C4;
+    border-radius: 10px;
+    left: 437px;
+    top: 346px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1031, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix {
+    top: 405px;
+    left: 428px;
+  }
+  /* line 1035, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #netflix h1 {
+    background: #AA3934;
+  }
+
+  /* line 1040, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nflx {
+    background: #AA3934;
+    border-radius: 10px;
+    left: 406px;
+    top: 411px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1049, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla {
+    top: 492px;
+    left: 387px;
+  }
+  /* line 1053, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #tesla h1 {
+    background: #745234;
+  }
+
+  /* line 1058, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-tsla {
+    background: #745234;
+    border-radius: 10px;
+    left: 373px;
+    top: 473px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1067, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse {
+    top: 563px;
+    left: 202px;
+  }
+  /* line 1071, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #nyse h1 {
+    background: #343481;
+  }
+
+  /* line 1076, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-nyse {
+    background: #343481;
+    border-radius: 10px;
+    left: 278px;
+    top: 536px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1085, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba {
+    top: 493px;
+    left: 12px;
+  }
+  /* line 1089, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #alibaba h1 {
+    background: #A56117;
+  }
+
+  /* line 1094, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-baba {
+    background: #A56117;
+    border-radius: 10px;
+    left: 183px;
+    top: 473px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1103, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa {
+    top: 406px;
+    left: -31px;
+  }
+  /* line 1107, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #boa h1 {
+    background: #248041;
+  }
+
+  /* line 1112, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-bac {
+    background: #248041;
+    border-radius: 10px;
+    left: 150px;
+    top: 411px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1121, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko {
+    top: 315px;
+    left: -65px;
+  }
+  /* line 1124, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #ko h1 {
+    background: #617427;
+  }
+
+  /* line 1129, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-ko {
+    background: #617427;
+    border-radius: 10px;
+    left: 119px;
+    top: 346px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1138, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta {
+    top: 225px;
+    left: -31px;
+  }
+  /* line 1142, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #delta h1 {
+    background: #6D2828;
+  }
+
+  /* line 1147, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-dal {
+    background: #6D2828;
+    border-radius: 10px;
+    left: 152px;
+    top: 282px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* line 1156, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter {
+    top: 134px;
+    left: 12px;
+  }
+  /* line 1160, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  #twitter h1 {
+    background: #4B8DA2;
+  }
+
+  /* line 1165, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
+  .n-twtr {
+    background: #4B8DA2;
+    border-radius: 10px;
+    left: 183px;
+    top: 219px;
+    width: 14px;
+    height: 14px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #111 !important;
+	color: #fff !important;
+}
+
+p, span, h1, h2, h3, h4 {
+	font-family: 'Helvetica', sans-serif;
+	color: #fff;
+}
+
+.container {
+	margin: auto;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 860px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 80%;
+	}
+}

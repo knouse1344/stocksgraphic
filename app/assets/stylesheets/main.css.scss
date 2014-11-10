@@ -874,6 +874,15 @@ circle {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+
+	h1.title {
+		font-size: 42px;
+	}
+
+	h4.subtitle {
+		font-size: 24px;
+	}
+
 	#index {
 		width: 570px;
 	}
@@ -919,7 +928,7 @@ circle {
 
 		h1 {
 			padding: 3px 8px;
-			font-size: 16px;
+			font-size: 18px;
 			font-weight: bold;
 			display: block;
 			margin: 0;
@@ -927,7 +936,7 @@ circle {
 
 			span {
 				float: right;
-				font-size: 16px;
+				font-size: 18px;
 				font-weight: bold;
 			}
 		}
@@ -937,19 +946,19 @@ circle {
 
 			p {
 				margin: 0;
-				font-size: 16px;
+				font-size: 18px;
 				line-height: 20px;
 				padding: 3px 8px;
 				font-weight: normal;
 
 				.vol {
-					font-size: 16px;
+					font-size: 18px;
 					margin-left: 15px;
 					font-weight: 300;
 				}
 
 				.amt {
-					font-size: 16px;
+					font-size: 18px;
 					margin-left: 15px;
 					font-weight: 300;
 				}	

@@ -892,13 +892,13 @@ circle {
 		width: 250px;	
 		text-align: left;
 		position: absolute;
-		top: -55px;
+		top: -75px;
 		left: 50%;
 		margin-left: -125px;
 
 		h1 {
 			padding: 4px 8px;
-			font-size: 22px;
+			font-size: 24px;
 			display: block;
 			font-weight: bold;
 			margin: 0;
@@ -906,11 +906,11 @@ circle {
 		}
 
 		.data {
-			padding-top: 8px;
+			padding-top: 3px;
 
 			p {
 				margin: 0;
-				font-size: 18px;
+				font-size: 24px;
 				padding: 5px 8px;
 
 				span {
@@ -922,13 +922,13 @@ circle {
 
 	.info-box {
 		background: rgba(255,255,255,.1);
-		width: 175px;
+		width: 200px;
 		position: absolute;
 		top: 0;
 
 		h1 {
 			padding: 3px 8px;
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: bold;
 			display: block;
 			margin: 0;
@@ -936,29 +936,30 @@ circle {
 
 			span {
 				float: right;
-				font-size: 18px;
+				font-size: 20px;
 				font-weight: bold;
 			}
 		}
 
 		.data {
 			text-align: left;
+			padding-top: 3px;
 
 			p {
 				margin: 0;
-				font-size: 18px;
+				font-size: 20px;
 				line-height: 20px;
-				padding: 3px 8px;
+				padding: 4px 8px;
 				font-weight: normal;
 
 				.vol {
-					font-size: 18px;
+					font-size: 20px;
 					margin-left: 15px;
 					font-weight: 300;
 				}
 
 				.amt {
-					font-size: 18px;
+					font-size: 20px;
 					margin-left: 15px;
 					font-weight: 300;
 				}	
@@ -966,8 +967,8 @@ circle {
 		}
 	}
 	#nasdaq {
-		top: 72px;
-		left: 199px;
+		top: 60px;
+		left: 185px;
 
 		h1 {
 			background: #922FA5;
@@ -984,8 +985,8 @@ circle {
 	}
 
 	#apple {
-		top: 138px;
-		left: 386px;
+		top: 120px;
+		left: 395px;
 
 		h1 {
 			background: #999;
@@ -1002,8 +1003,8 @@ circle {
 	}
 
 	#comcast {
-		top: 226px;
-		left: 429px;
+		top: 215px;
+		left: 435px;
 
 		h1 {
 			background: #924A27;
@@ -1021,7 +1022,7 @@ circle {
 
 	#facebook {
 		top: 313px;
-		left: 462px;
+		left: 470px;
 
 		h1 {
 			background: #6473C4;
@@ -1038,8 +1039,8 @@ circle {
 	}
 
 	#netflix {
-		top: 405px;
-		left: 428px;
+		top: 415px;
+		left: 435px;
 
 		h1 {
 			background: #AA3934;
@@ -1056,8 +1057,8 @@ circle {
 	}
 
 	#tesla {
-		top: 492px;
-		left: 387px;
+		top: 508px;
+		left: 395px;
 
 		h1 {
 			background: #745234;
@@ -1075,7 +1076,7 @@ circle {
 
 	#nyse {
 		top: 563px;
-		left: 202px;
+		left: 185px;
 
 		h1 {
 			background: #343481;
@@ -1092,8 +1093,8 @@ circle {
 	}
 
 	#alibaba {
-		top: 493px;
-		left: 12px;
+		top: 508px;
+		left: -23px;
 
 		h1 {
 			background: #A56117;
@@ -1110,8 +1111,8 @@ circle {
 	}
 
 	#boa {
-		top: 406px;
-		left: -31px;
+		top: 415px;
+		left: -65px;
 
 		h1 {
 			background: #248041;
@@ -1129,7 +1130,7 @@ circle {
 
 	#ko {
 		top: 315px;
-		left: -65px;
+		left: -100px;
 		h1 {
 			background: #617427;
 		}
@@ -1145,8 +1146,8 @@ circle {
 	}
 
 	#delta {
-		top: 225px;
-		left: -31px;
+		top: 215px;
+		left: -65px;
 
 		h1 {
 			background: #6D2828;
@@ -1163,8 +1164,8 @@ circle {
 	}
 
 	#twitter {
-		top: 134px;
-		left: 12px;
+		top: 120px;
+		left: -23px;
 
 		h1 {
 			background: #4B8DA2;

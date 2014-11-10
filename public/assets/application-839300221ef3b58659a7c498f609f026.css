@@ -972,17 +972,17 @@ circle {
   /* line 881, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #us-equity {
     background: rgba(255, 255, 255, 0.1);
-    width: 200px;
+    width: 250px;
     text-align: left;
     position: absolute;
     top: -55px;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -125px;
   }
   /* line 890, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #us-equity h1 {
     padding: 4px 8px;
-    font-size: 18px;
+    font-size: 22px;
     display: block;
     font-weight: bold;
     margin: 0;
@@ -995,7 +995,7 @@ circle {
   /* line 902, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #us-equity .data p {
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px 8px;
   }
   /* line 907, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -1013,7 +1013,7 @@ circle {
   /* line 920, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box h1 {
     padding: 3px 8px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     display: block;
     margin: 0;
@@ -1022,7 +1022,7 @@ circle {
   /* line 928, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box h1 span {
     float: right;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
   }
   /* line 935, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -1032,20 +1032,20 @@ circle {
   /* line 938, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p {
     margin: 0;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     padding: 3px 8px;
     font-weight: normal;
   }
   /* line 945, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p .vol {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 15px;
     font-weight: 300;
   }
   /* line 951, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p .amt {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 15px;
     font-weight: 300;
   }

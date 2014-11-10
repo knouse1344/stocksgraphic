@@ -880,16 +880,16 @@ circle {
 
 	#us-equity {
 		background: rgba(255,255,255,.1);
-		width: 200px;	
+		width: 250px;	
 		text-align: left;
 		position: absolute;
 		top: -55px;
 		left: 50%;
-		margin-left: -100px;
+		margin-left: -125px;
 
 		h1 {
 			padding: 4px 8px;
-			font-size: 18px;
+			font-size: 22px;
 			display: block;
 			font-weight: bold;
 			margin: 0;
@@ -901,7 +901,7 @@ circle {
 
 			p {
 				margin: 0;
-				font-size: 14px;
+				font-size: 18px;
 				padding: 5px 8px;
 
 				span {
@@ -919,7 +919,7 @@ circle {
 
 		h1 {
 			padding: 3px 8px;
-			font-size: 14px;
+			font-size: 16px;
 			font-weight: bold;
 			display: block;
 			margin: 0;
@@ -927,7 +927,7 @@ circle {
 
 			span {
 				float: right;
-				font-size: 14px;
+				font-size: 16px;
 				font-weight: bold;
 			}
 		}
@@ -937,19 +937,19 @@ circle {
 
 			p {
 				margin: 0;
-				font-size: 12px;
+				font-size: 16px;
 				line-height: 20px;
 				padding: 3px 8px;
 				font-weight: normal;
 
 				.vol {
-					font-size: 12px;
+					font-size: 16px;
 					margin-left: 15px;
 					font-weight: 300;
 				}
 
 				.amt {
-					font-size: 12px;
+					font-size: 16px;
 					margin-left: 15px;
 					font-weight: 300;
 				}	

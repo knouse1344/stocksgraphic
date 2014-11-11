@@ -982,12 +982,12 @@ circle {
   /* line 890, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #us-equity {
     background: rgba(255, 255, 255, 0.1);
-    width: 250px;
+    width: 300px;
     text-align: left;
     position: absolute;
-    top: -75px;
+    top: -65px;
     left: 50%;
-    margin-left: -125px;
+    margin-left: -150px;
   }
   /* line 899, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #us-equity h1 {
@@ -1016,14 +1016,14 @@ circle {
   /* line 923, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box {
     background: rgba(255, 255, 255, 0.1);
-    width: 200px;
+    width: 215px;
     position: absolute;
     top: 0;
   }
   /* line 929, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box h1 {
     padding: 3px 8px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     display: block;
     margin: 0;
@@ -1032,7 +1032,7 @@ circle {
   /* line 937, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box h1 span {
     float: right;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
   }
   /* line 944, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -1043,20 +1043,20 @@ circle {
   /* line 948, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p {
     margin: 0;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
     padding: 4px 8px;
     font-weight: normal;
   }
   /* line 955, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p .vol {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 15px;
     font-weight: 300;
   }
   /* line 961, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   .info-box .data p .amt {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 15px;
     font-weight: 300;
   }
@@ -1064,7 +1064,7 @@ circle {
   /* line 969, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nasdaq {
     top: 75px;
-    left: 285px;
+    left: 275px;
   }
   /* line 973, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nasdaq h1 {
@@ -1184,7 +1184,7 @@ circle {
   /* line 1077, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nyse {
     top: 725px;
-    left: 285px;
+    left: 275px;
   }
   /* line 1081, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nyse h1 {
@@ -1204,7 +1204,7 @@ circle {
   /* line 1095, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #alibaba {
     top: 635px;
-    left: 40px;
+    left: 25px;
   }
   /* line 1099, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #alibaba h1 {
@@ -1224,7 +1224,7 @@ circle {
   /* line 1113, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #boa {
     top: 515px;
-    left: -18px;
+    left: -33px;
   }
   /* line 1117, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #boa h1 {
@@ -1244,7 +1244,7 @@ circle {
   /* line 1131, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #ko {
     top: 400px;
-    left: -70px;
+    left: -85px;
   }
   /* line 1135, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #ko h1 {
@@ -1264,7 +1264,7 @@ circle {
   /* line 1149, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #delta {
     top: 283px;
-    left: -18px;
+    left: -33px;
   }
   /* line 1153, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #delta h1 {
@@ -1284,7 +1284,7 @@ circle {
   /* line 1167, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #twitter {
     top: 165px;
-    left: 40px;
+    left: 25px;
   }
   /* line 1171, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #twitter h1 {

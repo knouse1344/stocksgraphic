@@ -976,7 +976,7 @@ circle {
 
   /* line 886, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #index {
-    width: 650px;
+    width: 690px;
   }
 
   /* line 890, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
@@ -1063,8 +1063,8 @@ circle {
 
   /* line 969, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nasdaq {
-    top: 60px;
-    left: 185px;
+    top: 70px;
+    left: 248px;
   }
   /* line 973, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nasdaq h1 {
@@ -1075,16 +1075,16 @@ circle {
   .n-nasdaq {
     background: #922FA5;
     border-radius: 10px;
-    left: 278px;
-    top: 156px;
+    left: 338px;
+    top: 171px;
     width: 14px;
     height: 14px;
   }
 
   /* line 987, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #apple {
-    top: 120px;
-    left: 395px;
+    top: 143px;
+    left: 479px;
   }
   /* line 991, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #apple h1 {
@@ -1095,16 +1095,16 @@ circle {
   .n-aapl {
     background: #999;
     border-radius: 10px;
-    left: 373px;
-    top: 220px;
+    left: 453px;
+    top: 246px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1005, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #comcast {
-    top: 215px;
-    left: 435px;
+    top: 250px;
+    left: 530px;
   }
   /* line 1009, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #comcast h1 {
@@ -1115,16 +1115,16 @@ circle {
   .n-cmcsa {
     background: #924A27;
     border-radius: 10px;
-    left: 405px;
-    top: 283px;
+    left: 492px;
+    top: 323px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1023, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #facebook {
-    top: 313px;
-    left: 550px;
+    top: 357px;
+    left: 580px;
   }
   /* line 1027, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #facebook h1 {
@@ -1135,16 +1135,16 @@ circle {
   .n-fb {
     background: #6473C4;
     border-radius: 10px;
-    left: 437px;
-    top: 346px;
+    left: 529px;
+    top: 400px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1041, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #netflix {
-    top: 415px;
-    left: 435px;
+    top: 465px;
+    left: 530px;
   }
   /* line 1045, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #netflix h1 {
@@ -1155,16 +1155,16 @@ circle {
   .n-nflx {
     background: #AA3934;
     border-radius: 10px;
-    left: 406px;
-    top: 411px;
+    left: 492px;
+    top: 478px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1059, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #tesla {
-    top: 508px;
-    left: 395px;
+    top: 575px;
+    left: 479px;
   }
   /* line 1063, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #tesla h1 {
@@ -1175,16 +1175,16 @@ circle {
   .n-tsla {
     background: #745234;
     border-radius: 10px;
-    left: 373px;
-    top: 473px;
+    left: 453px;
+    top: 552px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1077, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nyse {
-    top: 563px;
-    left: 185px;
+    top: 655px;
+    left: 248px;
   }
   /* line 1081, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #nyse h1 {
@@ -1195,16 +1195,16 @@ circle {
   .n-nyse {
     background: #343481;
     border-radius: 10px;
-    left: 278px;
-    top: 536px;
+    left: 338px;
+    top: 629px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1095, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #alibaba {
-    top: 508px;
-    left: -23px;
+    top: 575px;
+    left: 15px;
   }
   /* line 1099, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #alibaba h1 {
@@ -1215,16 +1215,16 @@ circle {
   .n-baba {
     background: #A56117;
     border-radius: 10px;
-    left: 183px;
-    top: 473px;
+    left: 223px;
+    top: 553px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1113, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #boa {
-    top: 415px;
-    left: -65px;
+    top: 465px;
+    left: -36px;
   }
   /* line 1117, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #boa h1 {
@@ -1235,16 +1235,16 @@ circle {
   .n-bac {
     background: #248041;
     border-radius: 10px;
-    left: 150px;
-    top: 411px;
+    left: 184px;
+    top: 478px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1131, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #ko {
-    top: 315px;
-    left: -100px;
+    top: 357px;
+    left: -90px;
   }
   /* line 1134, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #ko h1 {
@@ -1255,16 +1255,16 @@ circle {
   .n-ko {
     background: #617427;
     border-radius: 10px;
-    left: 119px;
-    top: 346px;
+    left: 146px;
+    top: 400px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1148, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #delta {
-    top: 215px;
-    left: -65px;
+    top: 250px;
+    left: -40px;
   }
   /* line 1152, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #delta h1 {
@@ -1275,16 +1275,16 @@ circle {
   .n-dal {
     background: #6D2828;
     border-radius: 10px;
-    left: 152px;
-    top: 282px;
+    left: 184px;
+    top: 323px;
     width: 14px;
     height: 14px;
   }
 
   /* line 1166, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #twitter {
-    top: 120px;
-    left: -23px;
+    top: 143px;
+    left: 18px;
   }
   /* line 1170, /home/bryan/Documents/stocksgraphic/app/assets/stylesheets/main.css.scss */
   #twitter h1 {
@@ -1295,8 +1295,8 @@ circle {
   .n-twtr {
     background: #4B8DA2;
     border-radius: 10px;
-    left: 183px;
-    top: 219px;
+    left: 223px;
+    top: 246px;
     width: 14px;
     height: 14px;
   }

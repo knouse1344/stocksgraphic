@@ -1546,18 +1546,18 @@ function world(points, nodenum, repeat, timeout) {
         setTimeout(function() {
           if (circ != circle[circle.length - 1]) {
             circ.transition()
-                .duration(750)
+                .duration(1150)
                 .ease("linear")
                 .attrTween("transform", translateAlong(path.node()));
           } else {
             circ.transition()
-                .duration(750)
+                .duration(1150)
                 .ease("linear")
                 .attrTween("transform", translateAlong(path.node()))
                 .each("end", wait(timeout));
           }
         }, timer);
-        timer+=50;
+        timer+=60;
       });
     }
 
